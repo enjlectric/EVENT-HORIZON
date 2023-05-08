@@ -1,0 +1,59 @@
+  _____   __  ____   ____  ____  ______   ____  ____   _        ___      ___     ____  ______   ____ 
+ / ___/  /  ]|    \ |    ||    \|      | /    ||    \ | |      /  _]    |   \   /    ||      | /    |
+(   \_  /  / |  D  ) |  | |  o  )      ||  o  ||  o  )| |     /  [_     |    \ |  o  ||      ||  o  |
+ \__  |/  /  |    /  |  | |   _/|_|  |_||     ||     || |___ |    _]    |  D  ||     ||_|  |_||     |
+ /  \ /   \_ |    \  |  | |  |    |  |  |  _  ||  O  ||     ||   [_     |     ||  _  |  |  |  |  _  |
+ \    \     ||  .  \ |  | |  |    |  |  |  |  ||     ||     ||     |    |     ||  |  |  |  |  |  |  |
+  \___|\____||__|\_||____||__|    |__|  |__|__||_____||_____||_____|    |_____||__|__|  |__|  |__|__|
+                                                                                                     
+Version 1.0
+Documentation
+
+Table of Contents
+
+1. What is Scriptpable Data and what is it for?
+2. Component List
+3. ScriptableObject List
+
+______________________________________________________
+
+1. What is Scriptpable Data and what is it for?
+
+Scriptable Data is a set of elemental Scriptable Objects containing primitive values. Think of them as integers, floats, booleans without a MonoBehaviour they necessarily belong to. This makes them a powerful tool for decoupling scripts like the player's actor and their health interface, saving data or plugging in different values for testing.
+Unlike regular Scriptable Objects, the values of Scriptable Data's objects are reset to a default value when the game starts. Each Scriptable Data object has two default values that can be freely set: One for debugging, and one for production. You can toggle between the two via the Tools menu.
+The production values are guaranteed to be used whenever in a build, so change the debug values during development freely!
+
+______________________________________________________
+
+2. Component List
+
+- SaveInterface
+
+A component hosting the SaveGameManager Scriptable Object. It provides access to the Scriptable Object's Save, Restore, Clear, Reset and Exists methods, used for inquiring the state of a save file in a specific save slot.
+
+- ScriptableDataEvent/ListScriptableDataEvent
+
+These components and their derived components give a component host to a ScriptableData object. Intended to be used for binding components in the scene to a Scriptable Data's event handlers.
+
+- ConditionalEvent
+
+Can be used for triggering an action in the scene when two ScriptableData object's values are equal or not equal.
+
+______________________________________________________
+
+3. ScriptableObject List
+
+- ScriptableData / ListScriptableData
+
+These SOs and their derived SOs contain elemental values in automatically resetting Scriptable Objects.
+Value: Retrieves the current value of the object.
+SetValueWithoutNotify: Bypasses the OnValueChanged event handler.
+OnValueChanged: Can be used to bind a method to the data value changing.
+
+- SaveDataManager
+
+A ScriptableObject with a list of ScriptableData it should save to a save file. Save slots are supported in the Save, Restore, Clear, Reset and Exists methods. Can be used with the SaveInterface component or plugged into another script directly.
+
+- SharedEvent
+
+A ScriptableObject that merely contains a UnityEvent. Intended to be used for loose coupling of Unity Events between two objects.

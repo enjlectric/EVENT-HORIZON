@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a4e1781b33fd2468cbfc44340ac20a, type: 3}
+  m_Name: Section_Centipedes_3
+  m_EditorClassIdentifier: 
+  duration: 12
+  clearEnemyProjectilesOnWin: 0
+  SkipClearingPriorRoutine: 1
+  enemySpawnList:
+  - enemies:
+    - {fileID: 11400000, guid: e8c887fe395e4854cac08a2351b15dfe, type: 2}
+    enemyListSearchType: 0
+    spawnEdge: 0
+    spawnPos: -1.3
+    spawnDepth: 1
+    spawnPosModBetweenSpawns: 0.6
+    initialDelay: 0
+    timeBetweenSpawns: 2
+    numberOfSpawns: 5
+  killEnemiesOnTimeout: 0

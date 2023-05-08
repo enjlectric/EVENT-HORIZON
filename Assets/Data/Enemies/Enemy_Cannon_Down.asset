@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fea027806daec4da93d32dfadcbb53, type: 3}
+  m_Name: Enemy_Cannon_Down
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 35
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 10
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 75
+  SpecialHitEffect: -1
+  sprites:
+  - {fileID: 694904106, guid: 966ce66f18f839d4b8c5fcf503cef63c, type: 3}
+  deathFrame: -1
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 0}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 370191664199315038, guid: 40adf850eed33094facb9bdec3a97a21, type: 3}
+  configPatternOverrides:
+  - patterns:
+    - {fileID: 11400000, guid: 8ed5595b1131ecf4cb04d3b541150cdb, type: 2}
+  ShootInterval: 2
+  AngleRange: {x: 95, y: 265}
+  Invulnerable: 0

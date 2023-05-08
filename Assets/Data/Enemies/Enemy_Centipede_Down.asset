@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71afac1253a19ae4fb9ca4c43ed4c6a4, type: 3}
+  m_Name: Enemy_Centipede_Down
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 43
+  armor: 0
+  invulnerableTime: 0
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 7
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 50
+  SpecialHitEffect: 32
+  sprites:
+  - {fileID: -858595878, guid: 9b532cc3e7ae3cd4796410b4cebe34c2, type: 3}
+  deathFrame: -1
+  speed: {x: -2, y: -2}
+  HealthBarSprite: {fileID: 0}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 1419778899690187487, guid: 2d801025f3815e24f9fad1ed27c89751, type: 3}
+  configPatternOverrides: []
+  MidPrefab: {fileID: 5055794206835964194, guid: cf98828c7af972d40a47cc18571a3ecb, type: 3}
+  EndPrefab: {fileID: 2289758795473854931, guid: 2c94b33245b600a41b57502fcd204d4e, type: 3}
+  SegmentCount: 8
+  DistanceFrames: 8
+  SegmentExplosion: {fileID: 8037738364367190187, guid: 6f14601643084b74fb30402a853711ca, type: 3}

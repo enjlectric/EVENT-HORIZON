@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9a2640baaa4dc419012aab1358274c, type: 3}
+  m_Name: Level_6_Normal
+  m_EditorClassIdentifier: 
+  sections:
+  - {fileID: 11400000, guid: c8ea3d715e2a2374daec51aa996d8451, type: 2}
+  - {fileID: 11400000, guid: 0caf39c7fc4ef40428b5f7ef3b37df87, type: 2}
+  - {fileID: 11400000, guid: c3758461b2d9aa642bf4084f6ce62d24, type: 2}
+  - {fileID: 11400000, guid: b06d72ef15ccaea4ab4991c071580a31, type: 2}
+  - {fileID: 11400000, guid: b3363d67bc547c9458821068bab18ff3, type: 2}
+  bgmIntro: 12
+  bgmLoop: 13
+  sprites:
+  - {fileID: 1781518661, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -965930382, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: 225158827, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -1258627798, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -790051399, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: 2029453235, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -264257671, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  positions:
+  - {x: 0, y: 16, z: 5}
+  - {x: 0, y: 15, z: 4.5}
+  - {x: 0, y: 17, z: 4}
+  - {x: -0.6, y: 17.29, z: 2.8}
+  - {x: -0.3, y: 22, z: 1.8}
+  - {x: -1.1, y: 24, z: 1.5}
+  - {x: 0, y: 38, z: -0.5}
+  roadSprite: {fileID: 21300000, guid: 45f52768463987e4cb27198e4fdb041b, type: 3}
+  roadMaterial: {fileID: 2100000, guid: 766a8262b1df5264dbf994645d7d48f1, type: 2}

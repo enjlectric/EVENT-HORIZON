@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a4e1781b33fd2468cbfc44340ac20a, type: 3}
+  m_Name: Section_PanicUFOs
+  m_EditorClassIdentifier: 
+  duration: 6
+  clearEnemyProjectilesOnWin: 0
+  SkipClearingPriorRoutine: 0
+  enemySpawnList:
+  - enemies:
+    - {fileID: 11400000, guid: 2637ca8a934933e46a3fd5e8f85f6b9f, type: 2}
+    enemyListSearchType: 0
+    spawnEdge: 2
+    spawnPos: -0.47
+    spawnDepth: 1
+    spawnPosModBetweenSpawns: 0.15
+    initialDelay: 0
+    timeBetweenSpawns: 0.2
+    numberOfSpawns: 9
+  - enemies:
+    - {fileID: 11400000, guid: 2637ca8a934933e46a3fd5e8f85f6b9f, type: 2}
+    enemyListSearchType: 0
+    spawnEdge: 2
+    spawnPos: 0.17
+    spawnDepth: 0
+    spawnPosModBetweenSpawns: -0.15
+    initialDelay: 0.55
+    timeBetweenSpawns: 0.37
+    numberOfSpawns: 6
+  - enemies:
+    - {fileID: 11400000, guid: 2637ca8a934933e46a3fd5e8f85f6b9f, type: 2}
+    enemyListSearchType: 0
+    spawnEdge: 2
+    spawnPos: 0.42
+    spawnDepth: 0
+    spawnPosModBetweenSpawns: -0.1
+    initialDelay: 1.3
+    timeBetweenSpawns: 0.3
+    numberOfSpawns: 7
+  killEnemiesOnTimeout: 0

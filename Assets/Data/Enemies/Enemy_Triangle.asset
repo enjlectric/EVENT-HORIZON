@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e739c432917afa2468de3fc6893547c1, type: 3}
+  m_Name: Enemy_Triangle
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 18
+  armor: 0
+  invulnerableTime: 0
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 7
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 50
+  SpecialHitEffect: -1
+  sprites:
+  - {fileID: 21300000, guid: 7f5756edcdeaf64489afb49dd7fee53f, type: 3}
+  deathFrame: -1
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 0}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 3683836666841546698, guid: 0769613670e700c4f99c41bb8d52e29c, type: 3}
+  configPatternOverrides:
+  - patterns:
+    - {fileID: 11400000, guid: 4f1f3a31fc3422540a0fabceb6034080, type: 2}

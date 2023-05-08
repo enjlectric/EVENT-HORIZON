@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a1cd1caf9658d4e83899aefc97ee35, type: 3}
+  m_Name: Enemy_BigOrb
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 75
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 7
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 6920389584949673237, guid: dc9c41f159b16a2469c1084965ed86d8, type: 3}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 150
+  NoInvulnerableSound: 0
+  SpecialHitEffect: -1
+  DeathSoundEffect: 46
+  sprites:
+  - {fileID: 432889598, guid: e7a7174be0c8c0944ae3b87b35474826, type: 3}
+  deathFrame: 0
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 0}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 7586147816821191346, guid: dc194be6e607bfd4f97a0b164298b0f0, type: 3}
+  configPatternOverrides:
+  - patterns:
+    - {fileID: 11400000, guid: e07e2bd4f6fbe434992c2d136f34109a, type: 2}
+  skipIntroState: 1
+  introMultiplier: 1
+  shotInterval: 0.7
+  speedXTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0011978149
+      value: 0.99998474
+      inSlope: 0.0001258883
+      outSlope: 0.0001258883
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.48629364
+    - serializedVersion: 3
+      time: 0.24999999
+      value: -0.99996185
+      inSlope: -0.012937548
+      outSlope: -0.012937548
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5833333
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49974257
+      value: 0.9941807
+      inSlope: 0.0060207844
+      outSlope: 0.0060207844
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7499748
+      value: -1.0008583
+      inSlope: 0.0149075985
+      outSlope: 0.0149075985
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.99998474
+      inSlope: 0.098811515
+      outSlope: 0.098811515
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.23470682
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedYTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0011978149
+      value: 0.99998474
+      inSlope: -7.96164
+      outSlope: -7.96164
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24999999
+      value: -0.99996185
+      inSlope: -0.012937548
+      outSlope: -0.012937548
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5833333
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49974257
+      value: 0.9941807
+      inSlope: 0.0060207844
+      outSlope: 0.0060207844
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7499748
+      value: -1.0008583
+      inSlope: 0.0149075985
+      outSlope: 0.0149075985
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.99998474
+      inSlope: 8.002565
+      outSlope: 8.002565
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedTimeMultiplier: {x: 0, y: 0}
+  SpritesheetAnimationIndices: 00000000

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a4e1781b33fd2468cbfc44340ac20a, type: 3}
+  m_Name: Section_Shield_Dip_L
+  m_EditorClassIdentifier: 
+  duration: 10
+  clearEnemyProjectilesOnWin: 0
+  enemySpawnList:
+  - enemies:
+    - {fileID: 11400000, guid: 09265a056a8b6e34abba45dd888d1a88, type: 2}
+    enemyListSearchType: 0
+    spawnEdge: 2
+    spawnPos: -0.5
+    spawnDepth: 0
+    spawnPosModBetweenSpawns: 0.4
+    initialDelay: 0
+    timeBetweenSpawns: 0.1
+    numberOfSpawns: 3
+  - enemies:
+    - {fileID: 11400000, guid: 09265a056a8b6e34abba45dd888d1a88, type: 2}
+    enemyListSearchType: 0
+    spawnEdge: 2
+    spawnPos: 0.5
+    spawnDepth: 0
+    spawnPosModBetweenSpawns: -0.4
+    initialDelay: 2
+    timeBetweenSpawns: 0.1
+    numberOfSpawns: 3
+  killEnemiesOnTimeout: 0

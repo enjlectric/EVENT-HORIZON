@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf777b773d048044b5b143f35e49c39, type: 3}
+  m_Name: Enemy_Biker_TrailAndSparks
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 60
+  armor: 0
+  invulnerableTime: 0
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 7
+  tireTracks: {fileID: 11400000, guid: abd2f572c8984c145bff8d3bd3e3db62, type: 2}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  PowerValue: 50
+  ScoreValue: 100
+  sprites:
+  - {fileID: -1248500558, guid: cfee4700a0bada043ba2124f6333b707, type: 3}
+  - {fileID: -621900847, guid: cfee4700a0bada043ba2124f6333b707, type: 3}
+  - {fileID: -840851010, guid: cfee4700a0bada043ba2124f6333b707, type: 3}
+  bulletSourcePrefab: {fileID: 1487475204292749761, guid: 63d1de1cd7b86724192ff36883f9c978, type: 3}
+  configPatternOverrides:
+  - patterns:
+    - {fileID: 11400000, guid: 89e83c56771c3af4faa5f1083c5e397e, type: 2}
+    - {fileID: 11400000, guid: beb613dd5516b474589a6d40ba2acf3d, type: 2}
+  yeehawDuration: 1.5

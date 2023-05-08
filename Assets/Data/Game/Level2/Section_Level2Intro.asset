@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b25f45ad6f15b844a30779b492c5d5b, type: 3}
+  m_Name: Section_Level2Intro
+  m_EditorClassIdentifier: 
+  duration: 7
+  clearEnemyProjectilesOnWin: 0
+  cameraStartY: 50
+  cameraIntroCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.19885078
+      value: 0.15287721
+      inSlope: 0.56406856
+      outSlope: 0.56406856
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.12377497
+    - serializedVersion: 3
+      time: 0.72487175
+      value: 0.28344417
+      inSlope: 0.5369263
+      outSlope: 0.5369263
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.11312023
+      outWeight: 0.3690404
+    - serializedVersion: 3
+      time: 0.8884105
+      value: 0.5898398
+      inSlope: 3.263689
+      outSlope: 3.263689
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0004883
+      value: 1.0003242
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  explosionPrefab: {fileID: 8533119463385196830, guid: 1916e25b33f0a9a49933fd5bb8fe6d16, type: 3}

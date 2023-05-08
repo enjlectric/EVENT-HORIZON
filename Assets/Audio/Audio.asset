@@ -1,0 +1,667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7c2bb199b65c74d91e82b5517d014c, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  Sounds:
+  - type: 0
+    sounds:
+    - clip: {fileID: 8300000, guid: fd3b7e979e4ab6a4290db9b733913a68, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 1
+    sounds:
+    - clip: {fileID: 8300000, guid: a62d953736dc786428d3cc652baca968, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 2
+    sounds:
+    - clip: {fileID: 8300000, guid: a62d953736dc786428d3cc652baca968, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 3
+    sounds:
+    - clip: {fileID: 8300000, guid: 00f1738e13faf724ca0a0ede5bdf9a45, type: 3}
+      volume: {x: 0.8, y: 0.8}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 4
+    sounds:
+    - clip: {fileID: 8300000, guid: f9136b77d3736724aacf5586a0e9fc58, type: 3}
+      volume: {x: 0.8, y: 0.8}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 5
+    sounds:
+    - clip: {fileID: 8300000, guid: 9ff77b199b72e664cae2e7efb1af04ce, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 6
+    sounds:
+    - clip: {fileID: 8300000, guid: 0ac7b6d1af1eb5d4c87c50f374626ad3, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 10
+    sounds:
+    - clip: {fileID: 8300000, guid: 048a7477b6c002f4c8b234e530898dfb, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 11
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 0.5000781, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 20
+    sounds:
+    - clip: {fileID: 8300000, guid: 832d0d94afb7fa44e96a15c5edf32ca2, type: 3}
+      volume: {x: 0.21097766, y: 0.21097766}
+      pitch: {x: 0.79465806, y: 1.3239402}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 0.23449458, y: 0.23449458}
+    priority: 200
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 21
+    sounds:
+    - clip: {fileID: 8300000, guid: d986da28c20fa444da96e9aad9aafd08, type: 3}
+      volume: {x: 0.4, y: 0.4}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 2.5
+  - type: 22
+    sounds:
+    - clip: {fileID: 8300000, guid: 9908d7e590341fb4f8d66d2e8f6fe6a6, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 23
+    sounds:
+    - clip: {fileID: 8300000, guid: c22e61d2e10dd104e86062fdd04f1faa, type: 3}
+      volume: {x: 0.9, y: 0.9}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 24
+    sounds:
+    - clip: {fileID: 8300000, guid: fd8bc39b4f12f86408fa9177cdf01dd5, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 25
+    sounds:
+    - clip: {fileID: 8300000, guid: 8d4ca09bd6ab9454a92e6322e61ac0a4, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 26
+    sounds:
+    - clip: {fileID: 8300000, guid: f2c8ab42b7d9cae43acb89e0373691e6, type: 3}
+      volume: {x: 0.6, y: 0.6}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 90
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 27
+    sounds:
+    - clip: {fileID: 8300000, guid: f6de2f683d6d8bd4eaa51491330ff93a, type: 3}
+      volume: {x: 0.6, y: 0.6}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 90
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 28
+    sounds:
+    - clip: {fileID: 8300000, guid: 234f962412e3b8143b1769d56f5d2132, type: 3}
+      volume: {x: 0.6, y: 0.6}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 29
+    sounds:
+    - clip: {fileID: 8300000, guid: aadf16e3055c81244aa8662d9a78fe16, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 30
+    sounds:
+    - clip: {fileID: 8300000, guid: 73aee57d2bfe40e4083878b29053620f, type: 3}
+      volume: {x: 0.3, y: 0.3}
+      pitch: {x: 0.6182306, y: 1.4121537}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 200
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 31
+    sounds:
+    - clip: {fileID: 8300000, guid: 120892b4d637fdf49af06bbf1570a7b8, type: 3}
+      volume: {x: 0.15, y: 0.2}
+      pitch: {x: 0.9, y: 1.1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 200
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 32
+    sounds:
+    - clip: {fileID: 8300000, guid: 6b064cb44fed6c844a907fa4ef09b835, type: 3}
+      volume: {x: 0.1, y: 0.1}
+      pitch: {x: 0.95, y: 1.17}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 200
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 33
+    sounds:
+    - clip: {fileID: 8300000, guid: f0b8927093c65ca428d203404fd1ec70, type: 3}
+      volume: {x: 0.3, y: 0.3}
+      pitch: {x: 0.6182306, y: 1.676795}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 200
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 34
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 35
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 36
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 37
+    sounds:
+    - clip: {fileID: 8300000, guid: 42fb3fd0b54cd3b469470faff892be85, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 38
+    sounds:
+    - clip: {fileID: 8300000, guid: 6f3c3519b446af246920b21b2ce6764f, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.8
+  - type: 40
+    sounds:
+    - clip: {fileID: 8300000, guid: 816fe901a84d11642b4830d34d24d9f0, type: 3}
+      volume: {x: 0.8, y: 0.8}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 41
+    sounds:
+    - clip: {fileID: 8300000, guid: 461c4b5c790f0324d91fabcfb90d1ba8, type: 3}
+      volume: {x: 0.6, y: 0.7}
+      pitch: {x: 0.9, y: 1.1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 42
+    sounds:
+    - clip: {fileID: 8300000, guid: 6ec14c775c493ec4aa036a8ba7bb9a29, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 43
+    sounds:
+    - clip: {fileID: 8300000, guid: e971101283df7be469a76243944c2e24, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 44
+    sounds:
+    - clip: {fileID: 8300000, guid: e829f69e314692e42bf765775b25fb52, type: 3}
+      volume: {x: 0.25, y: 0.25}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 50
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 51
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 52
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 53
+    sounds:
+    - clip: {fileID: 8300000, guid: cf8418a3c9d651246b21252563601635, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 54
+    sounds:
+    - clip: {fileID: 8300000, guid: 792c9d9251691e4469c551e313887cf0, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 55
+    sounds:
+    - clip: {fileID: 8300000, guid: 7ebff4d69d6d4bf488c1576299359197, type: 3}
+      volume: {x: 0.4, y: 0.4}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 56
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 57
+    sounds:
+    - clip: {fileID: 8300000, guid: f5985c9b26652d345985585f2fe1c0ef, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 58
+    sounds: []
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 59
+    sounds:
+    - clip: {fileID: 8300000, guid: 6e4189059087ef341bd466b49961b4e8, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 45
+    sounds:
+    - clip: {fileID: 8300000, guid: 64ceff2100cfeb740bdf192992b9c3be, type: 3}
+      volume: {x: 0.7, y: 0.7}
+      pitch: {x: 0.79465806, y: 1.3827492}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 46
+    sounds:
+    - clip: {fileID: 8300000, guid: 8cf4bf34337fff7438fc09d592709ec2, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 60
+    sounds:
+    - clip: {fileID: 8300000, guid: f3ce449c384d1e446ac8d2eac2c70189, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 61
+    sounds:
+    - clip: {fileID: 8300000, guid: d4a67cc02d5975446a87adc826a3597f, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 62
+    sounds:
+    - clip: {fileID: 8300000, guid: a9db42d81103670489015a5c2d4450e8, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 63
+    sounds:
+    - clip: {fileID: 8300000, guid: 278b142814c080f4e92eb6068429b273, type: 3}
+      volume: {x: 0.7, y: 0.7}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 7
+    sounds:
+    - clip: {fileID: 8300000, guid: 562fbf912a179cf4ba0edc77448ee588, type: 3}
+      volume: {x: 1, y: 1}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 64
+    sounds:
+    - clip: {fileID: 8300000, guid: a4835caf5385a26479f94df228142670, type: 3}
+      volume: {x: 0.5, y: 0.5}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 65
+    sounds:
+    - clip: {fileID: 8300000, guid: 6eb96264dcaa431468508bc1e1a251c4, type: 3}
+      volume: {x: 0.5, y: 0.5}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  - type: 66
+    sounds:
+    - clip: {fileID: 8300000, guid: d1ed41ed9951bc8489cf9f3bf5e7dcd0, type: 3}
+      volume: {x: 0.5, y: 0.5}
+      pitch: {x: 1, y: 1}
+      panning: {x: 0, y: 0}
+    mixerGroup: {fileID: -1418373102103471786, guid: 752688d7d1c814b41af8bd2a40224652, type: 2}
+    volume: {x: 1, y: 1}
+    priority: 128
+    threeDBlend: 0
+    loop: 0
+    minDelay: 0.05
+  Music:
+  - type: 2
+    clip: {fileID: 8300000, guid: 03d9c1df7a82e7448895eb85e1cbb594, type: 3}
+    volume: 1
+  - type: 3
+    clip: {fileID: 8300000, guid: 07e0be320fbc9264aaab37bc10707f5a, type: 3}
+    volume: 1
+  - type: 0
+    clip: {fileID: 8300000, guid: ceda880c0b7d9d14db7ffb5c2c68d6c6, type: 3}
+    volume: 1
+  - type: 1
+    clip: {fileID: 8300000, guid: dbacefc5d077e9b46a43eb24f3c0cf55, type: 3}
+    volume: 1
+  - type: 5
+    clip: {fileID: 8300000, guid: 457ba0e1839e1e4489ba291229778eae, type: 3}
+    volume: 1
+  - type: 7
+    clip: {fileID: 8300000, guid: 0d2d952b21b516144a80983c3adf52c9, type: 3}
+    volume: 1
+  - type: 9
+    clip: {fileID: 8300000, guid: d8e5a710dfea3bf4a8e9c58ea45d80d8, type: 3}
+    volume: 1
+  - type: 14
+    clip: {fileID: 8300000, guid: 0ef8bd0dfa4e31f4f9211a6140a79775, type: 3}
+    volume: 1
+  - type: 15
+    clip: {fileID: 8300000, guid: 5896a87430c9e474793dcaa4e6bac314, type: 3}
+    volume: 1
+  - type: 16
+    clip: {fileID: 8300000, guid: 8027ab8c600bc4748b106e33f29a276e, type: 3}
+    volume: 1
+  - type: 17
+    clip: {fileID: 8300000, guid: 3ffd62d77ec65ca4a8886e76029326bf, type: 3}
+    volume: 1
+  - type: 21
+    clip: {fileID: 8300000, guid: d7e102138067c724aabce5f4124bf755, type: 3}
+    volume: 1
+  - type: 18
+    clip: {fileID: 8300000, guid: 2e55e0e8fd341574ba7591b7663f081f, type: 3}
+    volume: 1
+  - type: 19
+    clip: {fileID: 8300000, guid: bd395a2f719c3d844b16d75455ea83f5, type: 3}
+    volume: 1
+  - type: 12
+    clip: {fileID: 8300000, guid: 313cf77b40b9e8f478cee9c5b2b21c5e, type: 3}
+    volume: 1
+  - type: 13
+    clip: {fileID: 8300000, guid: 32e4bdd31c2c1044085306c3d396f348, type: 3}
+    volume: 1
+  - type: 11
+    clip: {fileID: 8300000, guid: 8240d1d0b201d1649ae688f05711f19e, type: 3}
+    volume: 1

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9a2640baaa4dc419012aab1358274c, type: 3}
+  m_Name: Level_3_Normal
+  m_EditorClassIdentifier: 
+  sections:
+  - {fileID: 11400000, guid: bff343ae1166bf44b9246ad571e06189, type: 2}
+  - {fileID: 11400000, guid: 074e3dada11e8f6488bef0a1487c91bf, type: 2}
+  - {fileID: 11400000, guid: f14a5f863585bf046a0216638cf48061, type: 2}
+  - {fileID: 11400000, guid: cf0302ca74757f7498706f82ad274ebd, type: 2}
+  - {fileID: 11400000, guid: c0da64c708dc7724d8325f496699d28f, type: 2}
+  - {fileID: 11400000, guid: 880ce9441e3124f4a8076345fea77eb3, type: 2}
+  - {fileID: 11400000, guid: da7235a4f40ee644da1e359b854d8d74, type: 2}
+  - {fileID: 11400000, guid: 8a50d92d29506024083a53db3bf6ea11, type: 2}
+  - {fileID: 11400000, guid: 20be53f0f206f8e4d893a5c7b31decbf, type: 2}
+  - {fileID: 11400000, guid: a5ecf0f11d754b349b667114c3128c1b, type: 2}
+  - {fileID: 11400000, guid: 6eb7a29671a12c549ae661cd9de63d61, type: 2}
+  - {fileID: 11400000, guid: cc00a13b0a1a5a340b277bd95db06243, type: 2}
+  - {fileID: 11400000, guid: 05b58fffc076396478b12161a7d551b1, type: 2}
+  - {fileID: 11400000, guid: 6eb7a29671a12c549ae661cd9de63d61, type: 2}
+  - {fileID: 11400000, guid: c80eb4a0769f0c14b97114b8af663be0, type: 2}
+  - {fileID: 11400000, guid: eae7f176af57f0b4f9c19b3be49da953, type: 2}
+  - {fileID: 11400000, guid: 1e30acd0c21310f46b1e6b9cdfe3a0b3, type: 2}
+  - {fileID: 11400000, guid: c7b248e591b03ce4ba2fc91d9ad593db, type: 2}
+  - {fileID: 11400000, guid: b33f8a6fc9e08524b9d6aadd1e4319b6, type: 2}
+  bgmIntro: -1
+  bgmLoop: 7
+  sprites:
+  - {fileID: 1781518661, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -965930382, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: 225158827, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -1258627798, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -790051399, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: 2029453235, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  - {fileID: -264257671, guid: 4c12f5c320a5a934f8e2151dd980d53d, type: 3}
+  positions:
+  - {x: 0, y: 16, z: 5}
+  - {x: 0, y: 15, z: 4.5}
+  - {x: 0, y: 17, z: 4}
+  - {x: -0.6, y: 17.29, z: 2.8}
+  - {x: -0.3, y: 22, z: 1.8}
+  - {x: -1.1, y: 24, z: 1.5}
+  - {x: 0, y: 38, z: -0.5}
+  roadSprite: {fileID: 21300000, guid: 45f52768463987e4cb27198e4fdb041b, type: 3}
+  roadMaterial: {fileID: 2100000, guid: 766a8262b1df5264dbf994645d7d48f1, type: 2}

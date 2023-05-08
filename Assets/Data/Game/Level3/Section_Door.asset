@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a4e1781b33fd2468cbfc44340ac20a, type: 3}
+  m_Name: Section_Door
+  m_EditorClassIdentifier: 
+  duration: 0
+  clearEnemyProjectilesOnWin: 0
+  SkipClearingPriorRoutine: 0
+  enemySpawnList:
+  - enemies:
+    - {fileID: 11400000, guid: a9cd3bdd46bca1e4aa584b089e21ecc0, type: 2}
+    enemyListSearchType: 0
+    spawnEdge: 2
+    spawnPos: 0
+    spawnDepth: 4
+    spawnPosModBetweenSpawns: 0
+    spawnDepthModBetweenSpawns: 0
+    initialDelay: 0
+    timeBetweenSpawns: 0
+    numberOfSpawns: 1
+    SpawnRotation: 0
+    SpawnParticles: {fileID: 0}
+    SpawnDelay: 0
+  killEnemiesOnTimeout: 0

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb4453bb25d23c44b48a4d68f032b71, type: 3}
+  m_Name: Enemy_LaserShip
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 100
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 10
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 250
+  NoInvulnerableSound: 0
+  SpecialHitEffect: -1
+  DeathSoundEffect: 46
+  sprites:
+  - {fileID: 29011459, guid: c73c5f58eb0c2bb44a96cc726ea0c0de, type: 3}
+  deathFrame: -1
+  speed: {x: 1.4957126, y: 2.8637836}
+  HealthBarSprite: {fileID: 21300000, guid: 8c384b55a8ac7ef4594d637b41601e52, type: 3}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 2942308213931655205, guid: ec50e0b4d4527ca498f15390904a11c1, type: 3}
+  configPatternOverrides: []
+  TopData: {fileID: 11400000, guid: b909f2dec43d5f64180738cb53623932, type: 2}
+  MidData: {fileID: 11400000, guid: 62a6d8968b4e0e74292295de8ccb5b73, type: 2}
+  BottomData: {fileID: 11400000, guid: 5ce807d8960162644a41d04481ccde14, type: 2}
+  BarrierSegmentCount: 5
+  BarrierSegmentExplosionFX: {fileID: 8037738364367190187, guid: 6f14601643084b74fb30402a853711ca, type: 3}
+  BarrierPrefab: {fileID: 2804242590834459246, guid: 6965ab73bc3ee004b8629a6a4dfa2d8e, type: 3}
+  Hard: 0

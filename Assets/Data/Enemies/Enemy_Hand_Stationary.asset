@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8458b27881749cc47b630b7d73fdf45f, type: 3}
+  m_Name: Enemy_Hand_Stationary
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 35
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 7
+  tireTracks: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  PowerValue: 25
+  ScoreValue: 50
+  sprites:
+  - {fileID: -1453853515, guid: b0306fad5e67cf849bb58848b505d811, type: 3}
+  - {fileID: -213860607, guid: b0306fad5e67cf849bb58848b505d811, type: 3}
+  - {fileID: -1453853515, guid: b0306fad5e67cf849bb58848b505d811, type: 3}
+  bulletSourcePrefab: {fileID: 3272110893604264735, guid: 9483db7c5eb97cd4fa8ace77413ef54c, type: 3}
+  configPatternOverrides:
+  - patterns:
+    - {fileID: 11400000, guid: 97196053789535e4888a863c49049c25, type: 2}
+  speed: {x: 0, y: -0.5}
+  skipIntroState: 0
+  shotInterval: 0
+  speedXTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedYTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedTimeMultiplier: {x: 0, y: 0}
+  animationCycle: 1

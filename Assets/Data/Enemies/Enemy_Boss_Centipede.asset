@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d05acb570eea84c85a6c99193c786c, type: 3}
+  m_Name: Enemy_Boss_Centipede
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 660
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions:
+  - 550
+  - 440
+  - 330
+  - 220
+  - 110
+  layer: 10
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: 5d17d67ceac31484c826d28298674def, type: 3}
+  ScoreValue: 1000
+  SpecialHitEffect: 32
+  DeathSoundEffect: 42
+  sprites:
+  - {fileID: -2007100841, guid: 6936e448c53beba44b278029dea6982b, type: 3}
+  deathFrame: -1
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 21300000, guid: 027dc177feb3bf1428e7a803f9f86e79, type: 3}
+  HealthBarOffset: {x: -2, y: 0}
+  bulletSourcePrefab: {fileID: 1419778899690187487, guid: ade3d26ba2b21b8408769d52d95ae170, type: 3}
+  configPatternOverrides: []
+  MidPrefab: {fileID: 5055794206835964194, guid: 36a67dcda44e7a84094fad8ce937c70a, type: 3}
+  EndPrefab: {fileID: 2289758795473854931, guid: ef13e88a7d6067549a74e72abe3b2a61, type: 3}
+  SegmentCount: 12
+  DistanceFrames: 20
+  SegmentExplosion: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  RegularEnemy: 0

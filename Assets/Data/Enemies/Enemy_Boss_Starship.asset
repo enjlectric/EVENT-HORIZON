@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68808ba7f8b198498855482c593a89b, type: 3}
+  m_Name: Enemy_Boss_Starship
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 1250
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions:
+  - 950
+  - 700
+  - 400
+  - 50
+  layer: 10
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 2000
+  SpecialHitEffect: -1
+  DeathSoundEffect: 42
+  sprites:
+  - {fileID: 783436410, guid: e0c7d0431a68c184eaa6e5809c171ca7, type: 3}
+  deathFrame: -1
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 21300000, guid: 027dc177feb3bf1428e7a803f9f86e79, type: 3}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 6666161489926972056, guid: 2c9a78e95d6ca3e4488ba5a0ecf09a0c, type: 3}
+  configPatternOverrides: []
+  WingExplosionFX: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  HugeGunModuleData: {fileID: 11400000, guid: 07c8ed9c4bcc4df4581199e5d029c9b2, type: 2}
+  BackgroundEventInt: {fileID: 11400000, guid: 10d80757de8b5cb4d91319a6d6d2a10f, type: 2}
+  Demon: {fileID: 11400000, guid: 3e234f0b45682ce4b8f0ce31a7d5120d, type: 2}

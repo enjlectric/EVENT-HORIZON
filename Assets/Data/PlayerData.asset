@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4b40878a5d0a94098ea5cead4c3b38, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 1
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 0
+  health: 10
+  armor: 0
+  invulnerableTime: 2
+  lifetime: {x: 0, y: 0}
+  maxVelocity: 350
+  steerImpact: 350
+  maxSteer: 45
+  accelerationFalloff: 0.65
+  steerFalloff: 0.65
+  driftSteerImpact: 5
+  driftMinAngle: 3
+  driftIdleAngle: 12
+  driftMaxAngle: 25
+  shootCooldown: 0.05
+  projectile: {fileID: 11400000, guid: 05a7334b53a724b45b701e9c1320f010, type: 2}
+  tireTracksSprite: {fileID: 385463415, guid: 95f5234ec4653d84aa75592f3d638d05, type: 3}

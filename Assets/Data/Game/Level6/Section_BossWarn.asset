@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca3b511532fcc540a809bf9075a2645, type: 3}
+  m_Name: Section_BossWarn
+  m_EditorClassIdentifier: 
+  duration: 3
+  clearEnemyProjectilesOnWin: 0
+  EnglishString: '?PUT AN END TO IT.
+
+    THIS IS YOUR LAST CHANCE.'
+  JapaneseString: "\u6575\u306E\u4E2D\u4F50\u304C\u8FD1\u3065\u304D\u307E\u3059\u3002"
+  StringValue: {fileID: 11400000, guid: a7a4692648085fb48b40549910926422, type: 2}

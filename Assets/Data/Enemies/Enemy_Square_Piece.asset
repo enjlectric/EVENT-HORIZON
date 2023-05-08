@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a1cd1caf9658d4e83899aefc97ee35, type: 3}
+  m_Name: Enemy_Square_Piece
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 8
+  armor: 0
+  invulnerableTime: 0
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 7
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 50
+  SpecialHitEffect: -1
+  DeathSoundEffect: 40
+  sprites:
+  - {fileID: 856587817, guid: 754b4e18d59d1304a96fd5f2e831255f, type: 3}
+  - {fileID: -513007234, guid: 754b4e18d59d1304a96fd5f2e831255f, type: 3}
+  - {fileID: -1490904334, guid: 754b4e18d59d1304a96fd5f2e831255f, type: 3}
+  - {fileID: 1739646544, guid: 754b4e18d59d1304a96fd5f2e831255f, type: 3}
+  deathFrame: 3
+  speed: {x: -6, y: -6}
+  HealthBarSprite: {fileID: 0}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 3272110893604264735, guid: d67363d3cc4ec574cb198c0d3e6dbc3b, type: 3}
+  configPatternOverrides:
+  - patterns:
+    - {fileID: 11400000, guid: 00b109661e82dd84eb2250bd4a185741, type: 2}
+  skipIntroState: 1
+  introMultiplier: 1
+  shotInterval: 0.5
+  speedXTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.3333333
+      outSlope: 0.045325056
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.5203503
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: -0
+      outSlope: 0
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.34569818
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedYTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.3333333
+      outSlope: 0.045325056
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.5203503
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: -0
+      outSlope: 0
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.34569818
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedTimeMultiplier: {x: 0.25, y: 0.25}
+  SpritesheetAnimationIndices: 00000000010000000200000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000

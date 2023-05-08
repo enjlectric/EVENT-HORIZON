@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2206f18404d2c4aad086821e537b78, type: 3}
+  m_Name: Section_LevelEnd
+  m_EditorClassIdentifier: 
+  duration: 0
+  clearEnemyProjectilesOnWin: 0
+  BuildIndex: 0
+  TransitionOpacity: {fileID: 11400000, guid: 2cdffe693a8a8ae4287552f49d9469e2, type: 2}
+  TransitionTexture: {fileID: 11400000, guid: 0bc40f6092846e1428ea3ae94250c6e6, type: 2}
+  InTexture: {fileID: 2800000, guid: c5896b76872c676488ab81350f954ba3, type: 3}
+  OutTexture: {fileID: 2800000, guid: c5896b76872c676488ab81350f954ba3, type: 3}

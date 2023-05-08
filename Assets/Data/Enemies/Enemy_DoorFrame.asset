@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bfadfee0fe9b9488ed5a77e791afb9, type: 3}
+  m_Name: Enemy_DoorFrame
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 1
+  armor: 0
+  invulnerableTime: 0
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 10
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 0}
+  ScoreValue: 0
+  SpecialHitEffect: -1
+  sprites:
+  - {fileID: 35822350, guid: 98206b104700faf4abefc7ab3c38472c, type: 3}
+  deathFrame: -1
+  speed: {x: -1.62, y: -1.76}
+  HealthBarSprite: {fileID: 0}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 7586147816821191346, guid: 0c44e802c9134104d8ea671a52b7f0c3, type: 3}
+  configPatternOverrides: []
+  Invincible: 1

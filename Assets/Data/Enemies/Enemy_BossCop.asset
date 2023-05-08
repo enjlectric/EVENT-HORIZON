@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45431afa6e3be4c47a31079b905b7bc8, type: 3}
+  m_Name: Enemy_BossCop
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 500
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions:
+  - 400
+  - 300
+  - 200
+  - 100
+  layer: 9
+  deathEffect: {fileID: 8037738364367190187, guid: 5d17d67ceac31484c826d28298674def, type: 3}
+  ScoreValue: 1000
+  sprites:
+  - {fileID: 141146410, guid: 8366da401ab01d047a8396c4aed7d75c, type: 3}
+  deathFrame: -1
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 0}
+  HealthBarOffset: {x: 0, y: 0}
+  bulletSourcePrefab: {fileID: 8947012972686748996, guid: ade3d26ba2b21b8408769d52d95ae170, type: 3}
+  configPatternOverrides:
+  - patterns:
+    - {fileID: 11400000, guid: 8ed5595b1131ecf4cb04d3b541150cdb, type: 2}
+    - {fileID: 11400000, guid: 024324871a19a6f41a2a94ff41123fdf, type: 2}
+    - {fileID: 11400000, guid: 2b4d87a5172f5fb48bd71658926c5271, type: 2}
+    - {fileID: 11400000, guid: e075f87b17ebde348a4b3904b636dca8, type: 2}
+    - {fileID: 11400000, guid: f131d4abdc8a1e746857582804b5c9a6, type: 2}
+    - {fileID: 11400000, guid: ea903b50e2e2a2f4c91234ad5652ec2c, type: 2}
+  - patterns:
+    - {fileID: 11400000, guid: b0b525f47db48484aa47f13ff3e31a20, type: 2}
+    - {fileID: 11400000, guid: d8af2d6c07075ef4498d0489ca60b3a2, type: 2}
+    - {fileID: 11400000, guid: 8f91acf674920e14c8a3584366df22bf, type: 2}
+  - patterns:
+    - {fileID: 11400000, guid: b0b525f47db48484aa47f13ff3e31a20, type: 2}
+    - {fileID: 11400000, guid: d8af2d6c07075ef4498d0489ca60b3a2, type: 2}
+    - {fileID: 11400000, guid: 8f91acf674920e14c8a3584366df22bf, type: 2}
+  - patterns:
+    - {fileID: 11400000, guid: b0b525f47db48484aa47f13ff3e31a20, type: 2}
+    - {fileID: 11400000, guid: d8af2d6c07075ef4498d0489ca60b3a2, type: 2}
+    - {fileID: 11400000, guid: 8f91acf674920e14c8a3584366df22bf, type: 2}
+  - patterns:
+    - {fileID: 11400000, guid: b0b525f47db48484aa47f13ff3e31a20, type: 2}
+    - {fileID: 11400000, guid: d8af2d6c07075ef4498d0489ca60b3a2, type: 2}
+    - {fileID: 11400000, guid: 8f91acf674920e14c8a3584366df22bf, type: 2}

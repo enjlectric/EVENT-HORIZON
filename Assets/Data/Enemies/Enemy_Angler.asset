@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2b0831c29fb4948bced3d94d8d1286, type: 3}
+  m_Name: Enemy_Angler
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 400
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions:
+  - 125
+  layer: 10
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 300
+  NoInvulnerableSound: 0
+  SpecialHitEffect: 32
+  DeathSoundEffect: 46
+  sprites:
+  - {fileID: 2038785770, guid: f6cfebc25f641004fb0b593697007bcf, type: 3}
+  deathFrame: -1
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 21300000, guid: 8c384b55a8ac7ef4594d637b41601e52, type: 3}
+  HealthBarOffset: {x: -3.25, y: 3}
+  bulletSourcePrefab: {fileID: 7586147816821191346, guid: f8211bd7350273c4998bc1a3384ea075, type: 3}
+  configPatternOverrides: []

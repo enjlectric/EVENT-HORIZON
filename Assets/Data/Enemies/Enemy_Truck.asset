@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c966e393966bda3458bc3b0985001ee8, type: 3}
+  m_Name: Enemy_Truck
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 1500
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions:
+  - 1250
+  - 1000
+  - 700
+  - 400
+  layer: 9
+  tireTracks: {fileID: 11400000, guid: 2f317dfac5f79564bac8688fef3f2b32, type: 2}
+  deathEffect: {fileID: 8037738364367190187, guid: 5d17d67ceac31484c826d28298674def, type: 3}
+  PowerValue: 1500
+  ScoreValue: 1500
+  sprites:
+  - {fileID: 51000517, guid: a806d0a567e247d48b0b15d725401645, type: 3}
+  - {fileID: 39804648, guid: a806d0a567e247d48b0b15d725401645, type: 3}
+  - {fileID: -122128632, guid: a806d0a567e247d48b0b15d725401645, type: 3}
+  - {fileID: 2121734098, guid: c86208777b766a64cbeebe6b34d68bed, type: 3}
+  - {fileID: 648813390, guid: c86208777b766a64cbeebe6b34d68bed, type: 3}
+  bulletSourcePrefab: {fileID: 2860452948702675710, guid: 2d67ed01fadceef42843547c95ac638b, type: 3}
+  configPatternOverrides: []
+  thrower: {fileID: 11400000, guid: 90de404f847dd4c4a9e7c6acacf383e2, type: 2}
+  thrower2: {fileID: 11400000, guid: 05b1451d6f25725498993418956dfb5f, type: 2}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 269a63ed66327d14db8f3a79eff95072, type: 3}
+  m_Name: Enemy_Door
+  m_EditorClassIdentifier: 
+  shootable: 1
+  takesContactDamage: 0
+  isSolid: 1
+  ownContactDamage: 0
+  damage: 1
+  health: 500
+  armor: 0
+  invulnerableTime: 0.05
+  lifetime: {x: 0, y: 0}
+  phaseTransitions: []
+  layer: 10
+  despawnBeforeEndOfLifetime: 0
+  despawnEffect: {fileID: 0}
+  deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
+  ScoreValue: 400
+  NoInvulnerableSound: 0
+  SpecialHitEffect: -1
+  DeathSoundEffect: 46
+  sprites:
+  - {fileID: 698198595, guid: 98206b104700faf4abefc7ab3c38472c, type: 3}
+  deathFrame: -1
+  speed: {x: 0, y: 0}
+  HealthBarSprite: {fileID: 21300000, guid: 027dc177feb3bf1428e7a803f9f86e79, type: 3}
+  HealthBarOffset: {x: -1.4, y: 0}
+  bulletSourcePrefab: {fileID: 7586147816821191346, guid: 4a18ef0f6146b2c429add5d00e54c232, type: 3}
+  configPatternOverrides: []
+  DoorFrameData: {fileID: 11400000, guid: b536f89ee6e823e4fb69aa193c8d7864, type: 2}
+  SpawnableEnemies:
+  - {fileID: 11400000, guid: e2065df726e0ef944aea7d969f88a400, type: 2}
+  - {fileID: 11400000, guid: a415fd74618613344a1a13a3997a6ef8, type: 2}
+  - {fileID: 11400000, guid: 7bc49f4022632304a879f72e35ecaf00, type: 2}
+  - {fileID: 11400000, guid: 08840d728f9f77843846a8a99156f928, type: 2}
