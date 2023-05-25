@@ -17,7 +17,7 @@ public class StarshipData : EnemyData<StarshipConfig>
 
         var _config = (StarshipConfig)behaviour.emitterContainer;
 
-        behaviour.spriteRenderer.sortingOrder = 2;
+        behaviour.spriteRenderer.sortingOrder = 1;
         _config.AddWingEmitters(this);
         _config.HugeGunFrozenPosition = Vector2.right * 5.5f;
 

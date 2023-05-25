@@ -16,11 +16,11 @@ MonoBehaviour:
   takesContactDamage: 0
   isSolid: 0
   ownContactDamage: 999
-  damage: 8
+  damage: 9
   health: 1
   armor: 0
   invulnerableTime: 0
-  lifetime: {x: 0.5, y: 0.5}
+  lifetime: {x: 0.6, y: 0.6}
   isLaser: 1
   lifetimeHurtLimitMin: 0
   lifetimeHurtLimit: 0.8
@@ -31,11 +31,13 @@ MonoBehaviour:
   - {fileID: 42156125, guid: 74967904656c73e47ac98509cfaa3767, type: 3}
   - {fileID: 42156125, guid: 74967904656c73e47ac98509cfaa3767, type: 3}
   - {fileID: 42156125, guid: 74967904656c73e47ac98509cfaa3767, type: 3}
+  - {fileID: 42156125, guid: 74967904656c73e47ac98509cfaa3767, type: 3}
   - {fileID: 394683291, guid: 74967904656c73e47ac98509cfaa3767, type: 3}
   - {fileID: 1318188278, guid: 74967904656c73e47ac98509cfaa3767, type: 3}
   - {fileID: 271493700, guid: 74967904656c73e47ac98509cfaa3767, type: 3}
   animationSpeed: 10
   speed: 0
+  gravity: {x: 0, y: 0}
   useSpeedCurve: 0
   speedOverTime:
     evaluationPattern: 0
@@ -198,6 +200,9 @@ MonoBehaviour:
   invertRotation: 0
   rotationIsDirection: 1
   useRotationCurve: 0
+  absoluteRotationStartAngle: 0
+  rotationCurveIsAbsolute: 0
+  alignToSpeedInstead: 0
   rotationOverTime:
     evaluationPattern: 0
     timeMultiplier: 1
@@ -280,6 +285,11 @@ MonoBehaviour:
   onDeathSpawn:
   - {fileID: 0}
   spawnWhenKilled: 0
+  SpawnSound: -1
+  RepeatSpawnSound: 0
+  DeathSound: -1
+  ColliderScale: 2
+  LaserWidth: 2
   hitEffect: {fileID: 8005914050023734687, guid: e6d01fda9d6ab40448abd736d492abcd, type: 3}
   isHoming: 0
   homingSnappiness: 1
@@ -362,3 +372,4 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     frequencyMultiplier: 1
+  NoStartHome: 0

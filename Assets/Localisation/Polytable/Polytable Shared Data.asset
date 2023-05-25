@@ -1,0 +1,2728 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Polytable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Polytable
+  m_TableCollectionNameGuidString: 575c41fcd6719334c8e53a7753b46686
+  m_Entries:
+  - m_Id: 1913096925184
+    m_Key: LANGUAGE_CODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925185
+    m_Key: LANGUAGE_EN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925186
+    m_Key: LANGUAGE_DIRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61130633801728
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925188
+    m_Key: Polyglot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925189
+    m_Key: CONTEXT_CHARACTER_CLASS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925190
+    m_Key: CONTEXT_CHARACTER_DELETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925191
+    m_Key: CONTEXT_CHARACTER_NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925192
+    m_Key: CONTEXT_CLASS_AI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925193
+    m_Key: CONTEXT_CLASS_ALIEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925194
+    m_Key: CONTEXT_CLASS_CLONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925195
+    m_Key: CONTEXT_CLASS_CYBORG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925196
+    m_Key: CONTEXT_CLASS_DEITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925197
+    m_Key: CONTEXT_CLASS_DEMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925198
+    m_Key: CONTEXT_CLASS_DEMONNESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925199
+    m_Key: CONTEXT_CLASS_DRAGON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925200
+    m_Key: CONTEXT_CLASS_DRAGON_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925201
+    m_Key: CONTEXT_CLASS_GHOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925202
+    m_Key: CONTEXT_CLASS_GOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925203
+    m_Key: CONTEXT_CLASS_GOD_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925204
+    m_Key: CONTEXT_CLASS_GODDESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925205
+    m_Key: CONTEXT_CLASS_MAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925206
+    m_Key: CONTEXT_CLASS_MEDIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925207
+    m_Key: CONTEXT_CLASS_MONSTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925208
+    m_Key: CONTEXT_CLASS_NINJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925209
+    m_Key: CONTEXT_CLASS_PIRATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925210
+    m_Key: CONTEXT_CLASS_PRIEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925211
+    m_Key: CONTEXT_CLASS_PRINCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925212
+    m_Key: CONTEXT_CLASS_PRINCESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925213
+    m_Key: CONTEXT_CLASS_ROBOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925214
+    m_Key: CONTEXT_CLASS_SKELETON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925215
+    m_Key: CONTEXT_CLASS_SNIPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925216
+    m_Key: CONTEXT_CLASS_SOLDIER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925217
+    m_Key: CONTEXT_CLASS_THIEF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925218
+    m_Key: CONTEXT_CLASS_WARRIOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925219
+    m_Key: CONTEXT_CLASS_WIZARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925220
+    m_Key: CONTEXT_CLASS_ZOMBIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925221
+    m_Key: CONTEXT_CLASS_ZOMBIE_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119488
+    m_Key: CONTEXT_COMPETITION_FIRST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119489
+    m_Key: CONTEXT_COMPETITION_PLACE_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119490
+    m_Key: CONTEXT_COMPETITION_SECOND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119491
+    m_Key: CONTEXT_COMPETITION_THIRD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119492
+    m_Key: CONTEXT_CONDITION_BURNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119493
+    m_Key: CONTEXT_CONDITION_CRITICAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119494
+    m_Key: CONTEXT_CONDITION_DEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119495
+    m_Key: CONTEXT_CONDITION_FROZEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119496
+    m_Key: CONTEXT_CONDITION_POISONED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119497
+    m_Key: CONTEXT_CONDITION_SLOWED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119498
+    m_Key: CONTEXT_CONDITION_STUNNED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119499
+    m_Key: CONTEXT_CONDITION_UNCONSCIOUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119500
+    m_Key: CONTEXT_CONDITION_UNHURT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119501
+    m_Key: CONTEXT_CONDITION_WET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796564
+    m_Key: CONTEXT_CONDITION_WOUNDED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796565
+    m_Key: CONTEXT_DESCRIPTION_BIG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796566
+    m_Key: CONTEXT_DESCRIPTION_HUGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796567
+    m_Key: CONTEXT_DESCRIPTION_SMALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796568
+    m_Key: CONTEXT_DESCRIPTION_TINY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796569
+    m_Key: CONTEXT_ELEMENT_AIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796570
+    m_Key: CONTEXT_ELEMENT_EARTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990848
+    m_Key: CONTEXT_ELEMENT_FIRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990849
+    m_Key: CONTEXT_ELEMENT_METAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990850
+    m_Key: CONTEXT_ELEMENT_WATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990851
+    m_Key: CONTEXT_GAMBLING_BET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990852
+    m_Key: CONTEXT_GAMBLING_DISCARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990853
+    m_Key: CONTEXT_GAMBLING_JACKPOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990854
+    m_Key: CONTEXT_GAMBLING_MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990855
+    m_Key: CONTEXT_GAMBLING_MIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990856
+    m_Key: CONTEXT_ITEM_ARMOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990857
+    m_Key: CONTEXT_ITEM_ARROW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990858
+    m_Key: CONTEXT_ITEM_ARROW_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990859
+    m_Key: CONTEXT_ITEM_BOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990860
+    m_Key: CONTEXT_ITEM_BOMB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990861
+    m_Key: CONTEXT_ITEM_BOOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990862
+    m_Key: CONTEXT_ITEM_BOOTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990863
+    m_Key: CONTEXT_ITEM_BOW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990864
+    m_Key: CONTEXT_ITEM_CARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990865
+    m_Key: CONTEXT_ITEM_CARD_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990866
+    m_Key: CONTEXT_ITEM_CHEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990867
+    m_Key: CONTEXT_ITEM_COND_MAGICAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990868
+    m_Key: CONTEXT_ITEM_COND_RUSTY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990869
+    m_Key: CONTEXT_ITEM_DAGGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185152
+    m_Key: CONTEXT_ITEM_DIE_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185153
+    m_Key: CONTEXT_ITEM_DIE_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185154
+    m_Key: CONTEXT_ITEM_DOOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185155
+    m_Key: CONTEXT_ITEM_GAUNTLETS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185156
+    m_Key: CONTEXT_ITEM_GEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185157
+    m_Key: CONTEXT_ITEM_GIFT_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185158
+    m_Key: CONTEXT_ITEM_GIFT_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185159
+    m_Key: CONTEXT_ITEM_GLOVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185160
+    m_Key: CONTEXT_ITEM_GUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185161
+    m_Key: CONTEXT_ITEM_HAMMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185162
+    m_Key: CONTEXT_ITEM_HELMET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185163
+    m_Key: CONTEXT_ITEM_KEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185164
+    m_Key: CONTEXT_ITEM_KNIFE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185165
+    m_Key: CONTEXT_ITEM_LOCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185166
+    m_Key: CONTEXT_ITEM_LOVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185167
+    m_Key: CONTEXT_ITEM_MACHINE_ITEM_GUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185168
+    m_Key: CONTEXT_ITEM_MAGIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185169
+    m_Key: CONTEXT_ITEM_PISTOL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185170
+    m_Key: CONTEXT_ITEM_QUEST_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185171
+    m_Key: CONTEXT_ITEM_RANK_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185172
+    m_Key: CONTEXT_ITEM_RIFLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185173
+    m_Key: CONTEXT_ITEM_ROCKET_ITEM_LAUNCHER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379456
+    m_Key: CONTEXT_ITEM_RPG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379457
+    m_Key: CONTEXT_ITEM_SCROLL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379458
+    m_Key: CONTEXT_ITEM_SHIELD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379459
+    m_Key: CONTEXT_ITEM_SHIELD_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379460
+    m_Key: CONTEXT_ITEM_SHIELD_SCIFI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379461
+    m_Key: CONTEXT_ITEM_SHIELD_SCIFI_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379462
+    m_Key: CONTEXT_ITEM_SHOTGUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379463
+    m_Key: CONTEXT_ITEM_SNIPER_ITEM_RIFLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379464
+    m_Key: CONTEXT_ITEM_SPELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379465
+    m_Key: CONTEXT_ITEM_STAFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379466
+    m_Key: CONTEXT_ITEM_SWORD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379467
+    m_Key: CONTEXT_ITEM_TREASURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379468
+    m_Key: CONTEXT_ITEM_TYPE_EPIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379469
+    m_Key: CONTEXT_ITEM_TYPE_JUNK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379470
+    m_Key: CONTEXT_ITEM_WAND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379471
+    m_Key: CONTEXT_ITEM_WOOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379472
+    m_Key: CONTEXT_MACHINE_ALTITUDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379473
+    m_Key: CONTEXT_MACHINE_BRAKES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379474
+    m_Key: CONTEXT_MACHINE_CHASSIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379475
+    m_Key: CONTEXT_MACHINE_DEPTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379476
+    m_Key: CONTEXT_MACHINE_FUEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379477
+    m_Key: CONTEXT_MACHINE_GEAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379478
+    m_Key: CONTEXT_MACHINE_HANDLING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379479
+    m_Key: CONTEXT_MACHINE_SPEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379480
+    m_Key: CONTEXT_MACHINE_STEERING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379481
+    m_Key: CONTEXT_MACHINE_SUSPENSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379482
+    m_Key: CONTEXT_MACHINE_WHEELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379483
+    m_Key: CONTEXT_MACHINE_WINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379484
+    m_Key: CONTEXT_MEDAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573760
+    m_Key: CONTEXT_MEDAL_BRONZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573761
+    m_Key: CONTEXT_MEDAL_GOLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573762
+    m_Key: CONTEXT_MEDAL_SILVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573763
+    m_Key: CONTEXT_METAL_BRONZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573764
+    m_Key: CONTEXT_METAL_COIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573765
+    m_Key: CONTEXT_METAL_GOLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573766
+    m_Key: CONTEXT_METAL_INGOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573767
+    m_Key: CONTEXT_METAL_PLATINUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573768
+    m_Key: CONTEXT_METAL_SILVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573769
+    m_Key: CONTEXT_PLACE_CASTLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573770
+    m_Key: CONTEXT_PLACE_CAVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573771
+    m_Key: CONTEXT_PLACE_DUNGEON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573772
+    m_Key: CONTEXT_PLACE_INN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573773
+    m_Key: CONTEXT_PLACE_PLANET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573774
+    m_Key: CONTEXT_PLACE_PLANET_EARTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573775
+    m_Key: CONTEXT_PLACE_SPACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573776
+    m_Key: CONTEXT_PLACE_SPACESHIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573777
+    m_Key: CONTEXT_STORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573778
+    m_Key: CONTEXT_STORY_ADVENTURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573779
+    m_Key: CONTEXT_STORY_CHAPTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573780
+    m_Key: CONTEXT_STORY_PAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573781
+    m_Key: CREDITS_GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573782
+    m_Key: CREDITS_GAME_DEVELOPMENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573783
+    m_Key: CREDITS_GAME_DEVELOPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573784
+    m_Key: CREDITS_DEVELOPED_BY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573785
+    m_Key: CREDITS_PRODUCTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573786
+    m_Key: CREDITS_PRODUCER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573787
+    m_Key: CREDITS_PUBLISHER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573788
+    m_Key: CREDITS_DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768064
+    m_Key: CREDITS_LEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768065
+    m_Key: CREDITS_ASSISTANT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768066
+    m_Key: CREDITS_ASSOCIATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768067
+    m_Key: CREDITS_SENIOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768068
+    m_Key: CREDITS_JUNIOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768069
+    m_Key: CREDITS_CHIEF_TECH_OFFICER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768070
+    m_Key: CREDITS_TECHNICAL_DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768071
+    m_Key: CREDITS_CREATIVE_DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768072
+    m_Key: CREDITS_ANIMATION_DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768073
+    m_Key: CREDITS_ART_DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768074
+    m_Key: CREDITS_AUDIO_DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768075
+    m_Key: CREDITS_DESIGN DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768076
+    m_Key: CREDITS_PROGRAM_MANAGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768077
+    m_Key: CREDITS_PROJECT_MANAGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768078
+    m_Key: CREDITS_GAME_DESIGN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768079
+    m_Key: CREDITS_GAME_DESIGNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768080
+    m_Key: CREDITS_CODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768081
+    m_Key: CREDITS_PROGRAMMING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768082
+    m_Key: CREDITS_PROGRAMMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768083
+    m_Key: CREDITS_PROGRAMMER_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768084
+    m_Key: CREDITS_LEAD_PROGRAMMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768085
+    m_Key: CREDITS_GRAPHIC_DESIGNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768086
+    m_Key: CREDITS_TECHNICAL_ARTIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962368
+    m_Key: CREDITS_CONCEPT_ARTIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962369
+    m_Key: CREDITS_CHARACTER_DESIGNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962370
+    m_Key: CREDITS_ART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962371
+    m_Key: CREDITS_ARTIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962372
+    m_Key: CREDITS_ARTIST_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962373
+    m_Key: CREDITS_LEVEL_DESIGN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962374
+    m_Key: CREDITS_LEVEL_DESIGNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962375
+    m_Key: CREDITS_CINEMATICS_DIRECTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962376
+    m_Key: CREDITS_CINEMATIC_ANIMATOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962377
+    m_Key: CREDITS_INTERFACE_ARTIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962378
+    m_Key: CREDITS_COMPOSER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962379
+    m_Key: CREDITS_MUSICIAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962380
+    m_Key: CREDITS_SPECIAL_THANKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962381
+    m_Key: CREDITS_SPECIAL_THANKS_TO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962382
+    m_Key: CREDITS_IMAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962383
+    m_Key: CREDITS_IMAGE_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962384
+    m_Key: CREDITS_FONT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962385
+    m_Key: CREDITS_FONT_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962386
+    m_Key: CREDITS_SOUNDTRACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962387
+    m_Key: CREDITS_WRITER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962388
+    m_Key: CREDITS_MANUSCRIPT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962389
+    m_Key: CREDITS_SCRIPT_WRITER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962390
+    m_Key: CREDITS_ANIMATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962391
+    m_Key: CREDITS_ANIMATOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962392
+    m_Key: CREDITS_VOICE_ACTING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962393
+    m_Key: CREDITS_VOICE_ACTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156672
+    m_Key: CREDITS_SOUND_DESIGNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156673
+    m_Key: CREDITS_SOUND_ENGINEER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156674
+    m_Key: CREDITS_SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156675
+    m_Key: CREDITS_VFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156676
+    m_Key: CREDITS_RECORDIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156677
+    m_Key: CREDITS_FOLEY_ARTIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156678
+    m_Key: CREDITS_TEST_MANAGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156679
+    m_Key: CREDITS_TEST_LEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156680
+    m_Key: CREDITS_TESTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156681
+    m_Key: CREDITS_DATABASE_ADMIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156682
+    m_Key: CREDITS_3D_MODELING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156683
+    m_Key: CREDITS_MODELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156684
+    m_Key: CREDITS_LOCALIZATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156685
+    m_Key: CREDITS_TRANSLATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156686
+    m_Key: CREDITS_POLYGLOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156687
+    m_Key: GAME_GENRE_ACTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156688
+    m_Key: GAME_GENRE_ADVENTURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156689
+    m_Key: GAME_GENRE_CARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156690
+    m_Key: GAME_GENRE_CASUAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156691
+    m_Key: GAME_GENRE_FANTASY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156692
+    m_Key: GAME_GENRE_HARDCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156693
+    m_Key: GAME_GENRE_INDIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156694
+    m_Key: GAME_GENRE_MEDIEVAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156695
+    m_Key: GAME_GENRE_MISC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156696
+    m_Key: GAME_GENRE_MULTIPLAYER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156697
+    m_Key: GAME_GENRE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156698
+    m_Key: GAME_GENRE_PLATFORMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156699
+    m_Key: GAME_GENRE_PUZZLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156700
+    m_Key: GAME_GENRE_QUIZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156701
+    m_Key: GAME_GENRE_RACING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156702
+    m_Key: GAME_GENRE_RETRO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156703
+    m_Key: GAME_GENRE_RPG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156704
+    m_Key: GAME_GENRE_RTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156705
+    m_Key: GAME_GENRE_SCIFI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156706
+    m_Key: GAME_GENRE_SHOOTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156707
+    m_Key: GAME_GENRE_SIMULATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156708
+    m_Key: GAME_GENRE_SINGLEPLAYER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156709
+    m_Key: GAME_GENRE_SPORTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156710
+    m_Key: GAME_GENRE_STRATEGY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350976
+    m_Key: GAME_GENRE_TBS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350977
+    m_Key: GAME_GENRE_TOWER_DEFENSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350978
+    m_Key: ERROR_DEVICE_NOT_FOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350979
+    m_Key: ERROR_DEVICE_VR_LEAVING_TRACKAREA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933888
+    m_Key: ERROR_DEVICE_VR_NO_HMD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933889
+    m_Key: ERROR_GENERIC_ERRCODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933890
+    m_Key: ERROR_GENERIC_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933891
+    m_Key: ERROR_GENERIC_INVALID_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933892
+    m_Key: ERROR_GENERIC_INVALID_CD_KEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933893
+    m_Key: ERROR_GENERIC_CHEATING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933894
+    m_Key: ERROR_NETWORK_CONNECTION_LOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933895
+    m_Key: ERROR_NETWORK_DISCONNECTED_YOUR_OPPONENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933896
+    m_Key: ERROR_NETWORK_DISCONNECTED_YOUR_PLAYER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933897
+    m_Key: ERROR_NETWORK_DISCONNECTED_YOUR_TEAMMATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933898
+    m_Key: ERROR_NETWORK_SERVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933899
+    m_Key: ERROR_SAVE_CORRUPTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933900
+    m_Key: ERROR_SAVE_NO_GAMES_FOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933901
+    m_Key: ERROR_SAVE_NO_OPEN_GAMES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933902
+    m_Key: GAME_ACTION_ATTACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933903
+    m_Key: GAME_ACTION_BOOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933904
+    m_Key: GAME_ACTION_BUILD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933905
+    m_Key: GAME_ACTION_CAST_FISHING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933906
+    m_Key: GAME_ACTION_CAST_SPELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933907
+    m_Key: GAME_ACTION_CLAIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933908
+    m_Key: GAME_ACTION_CLIMB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933909
+    m_Key: GAME_ACTION_CLOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933910
+    m_Key: GAME_ACTION_COLLECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128192
+    m_Key: GAME_ACTION_COOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128193
+    m_Key: GAME_ACTION_CRAFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128194
+    m_Key: GAME_ACTION_CROUCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128195
+    m_Key: GAME_ACTION_DODGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128196
+    m_Key: GAME_ACTION_DRIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128197
+    m_Key: GAME_ACTION_FLY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128198
+    m_Key: GAME_ACTION_FULL_SPEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128199
+    m_Key: GAME_ACTION_GO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128200
+    m_Key: GAME_ACTION_GO_TO_PLACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128201
+    m_Key: GAME_ACTION_HALF_SPEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128202
+    m_Key: GAME_ACTION_HEAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128203
+    m_Key: GAME_ACTION_JUMP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128204
+    m_Key: GAME_ACTION_LAND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128205
+    m_Key: GAME_ACTION_LOOK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128206
+    m_Key: GAME_ACTION_MIX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322496
+    m_Key: GAME_ACTION_OPEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322497
+    m_Key: GAME_ACTION_PICK_UP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322498
+    m_Key: GAME_ACTION_RACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322499
+    m_Key: GAME_ACTION_READ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322500
+    m_Key: GAME_ACTION_REPLACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322501
+    m_Key: GAME_ACTION_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322502
+    m_Key: GAME_ACTION_RUN_AWAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322503
+    m_Key: GAME_ACTION_SHOOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322504
+    m_Key: GAME_ACTION_SNEAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322505
+    m_Key: GAME_ACTION_SPIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322506
+    m_Key: GAME_ACTION_SPRINT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322507
+    m_Key: GAME_ACTION_STEER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322508
+    m_Key: GAME_ACTION_TAKE_OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322509
+    m_Key: GAME_ACTION_TALK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322510
+    m_Key: GAME_ACTION_THROW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322511
+    m_Key: GAME_ACTION_WALK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322512
+    m_Key: GAME_CHARACTER_ENDURANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322513
+    m_Key: GAME_CHARACTER_EXP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322514
+    m_Key: GAME_CHARACTER_FEMALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322515
+    m_Key: GAME_CHARACTER_HEALTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322516
+    m_Key: GAME_CHARACTER_HEART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322517
+    m_Key: GAME_CHARACTER_HEART_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322518
+    m_Key: GAME_CHARACTER_LEVEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322519
+    m_Key: GAME_CHARACTER_LEVEL_UP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322520
+    m_Key: GAME_CHARACTER_LIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322521
+    m_Key: GAME_CHARACTER_MALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322522
+    m_Key: GAME_CHARACTER_MAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322523
+    m_Key: GAME_CHARACTER_MAN_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322524
+    m_Key: GAME_CHARACTER_RESPAWN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516800
+    m_Key: GAME_CHARACTER_RESPAWN_IN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516801
+    m_Key: GAME_CHARACTER_RESPAWN_QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516802
+    m_Key: GAME_CHARACTER_RESPAWNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516803
+    m_Key: GAME_CHARACTER_SKILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516804
+    m_Key: GAME_CHARACTER_SPAWN_POINT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516805
+    m_Key: GAME_CHARACTER_TRANSGENDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516806
+    m_Key: GAME_CHARACTER_WOMAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516807
+    m_Key: GAME_CHARACTER_WOMAN_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516808
+    m_Key: GAME_DAMAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516809
+    m_Key: GAME_DAMAGE_CRITICAL_HIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516810
+    m_Key: GAME_DAMAGE_CRITICAL_MISS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516811
+    m_Key: GAME_DAMAGE_HIT_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516812
+    m_Key: GAME_DAMAGE_HIT_POINTS_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516813
+    m_Key: GAME_DAMAGE_MISS_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516814
+    m_Key: GAME_DAMAGE_UNIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516815
+    m_Key: GAME_DAMAGE_UNIT_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516816
+    m_Key: GAME_ENEMY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516817
+    m_Key: GAME_ENEMY_FEMALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516818
+    m_Key: GAME_ENEMY_FEMALE_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516819
+    m_Key: GAME_ENEMY_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516820
+    m_Key: GAME_INVENTORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516821
+    m_Key: GAME_INVENTORY_AMMO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516822
+    m_Key: GAME_INVENTORY_AMMUNITION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516823
+    m_Key: GAME_INVENTORY_BULLET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516824
+    m_Key: GAME_INVENTORY_BULLET_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516825
+    m_Key: GAME_INVENTORY_BUY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516826
+    m_Key: GAME_INVENTORY_CAPACITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516827
+    m_Key: GAME_INVENTORY_DROP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516828
+    m_Key: GAME_INVENTORY_ENCUMBRANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516829
+    m_Key: GAME_INVENTORY_FULL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516830
+    m_Key: GAME_INVENTORY_ITEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516831
+    m_Key: GAME_INVENTORY_KEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711104
+    m_Key: GAME_INVENTORY_POWERUP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711105
+    m_Key: GAME_INVENTORY_SELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711106
+    m_Key: GAME_INVENTORY_USE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711107
+    m_Key: GAME_INVENTORY_WEAPON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711108
+    m_Key: GAME_INVENTORY_WEAPONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711109
+    m_Key: GAME_INVENTORY_YOU_CANNOT_CARRY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711110
+    m_Key: GAME_LABEL_BE_CAREFUL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711111
+    m_Key: GAME_LABEL_PLEASE_BE_CAREFUL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711112
+    m_Key: GAME_LABEL_TACTICS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711113
+    m_Key: GAME_OBJECTIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711114
+    m_Key: GAME_OBJECTIVE_ASSIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711115
+    m_Key: GAME_OBJECTIVE_ASSIST_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711116
+    m_Key: GAME_OBJECTIVE_ATTACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711117
+    m_Key: GAME_OBJECTIVE_BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711118
+    m_Key: GAME_OBJECTIVE_CAPTURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711119
+    m_Key: GAME_OBJECTIVE_COMPLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711120
+    m_Key: GAME_OBJECTIVE_DEATH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711121
+    m_Key: GAME_OBJECTIVE_DEATH_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711122
+    m_Key: GAME_OBJECTIVE_DEFEND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711123
+    m_Key: GAME_OBJECTIVE_DESTROY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711124
+    m_Key: GAME_OBJECTIVE_ESCAPE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711125
+    m_Key: GAME_OBJECTIVE_GAME_FINISHED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711126
+    m_Key: GAME_OBJECTIVE_GAMEOVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711127
+    m_Key: GAME_OBJECTIVE_GAMEOVER_CAPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711128
+    m_Key: GAME_OBJECTIVE_HIGH_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711129
+    m_Key: GAME_OBJECTIVE_INCOMPLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711130
+    m_Key: GAME_OBJECTIVE_KILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711131
+    m_Key: GAME_OBJECTIVE_KILL_ASSIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711132
+    m_Key: GAME_OBJECTIVE_KILL_NOUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711133
+    m_Key: GAME_OBJECTIVE_KILL_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711134
+    m_Key: GAME_OBJECTIVE_LOCKED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711135
+    m_Key: GAME_OBJECTIVE_LOSSES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711136
+    m_Key: GAME_OBJECTIVE_MATCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711137
+    m_Key: GAME_OBJECTIVE_MISSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711138
+    m_Key: GAME_OBJECTIVE_MISSION_OBJECTIVE_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711139
+    m_Key: GAME_OBJECTIVE_MISSION_OBJECTIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905408
+    m_Key: GAME_OBJECTIVE_MULTIPLIER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905409
+    m_Key: GAME_OBJECTIVE_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905410
+    m_Key: GAME_OBJECTIVE_POSITION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905411
+    m_Key: GAME_OBJECTIVE_RACE_LAP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905412
+    m_Key: GAME_OBJECTIVE_RACE_LAP_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905413
+    m_Key: GAME_OBJECTIVE_ROUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905414
+    m_Key: GAME_OBJECTIVE_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905415
+    m_Key: GAME_OBJECTIVE_TIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905416
+    m_Key: GAME_OBJECTIVE_TIME_LEFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905417
+    m_Key: GAME_OBJECTIVE_TOURNAMENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905418
+    m_Key: GAME_OBJECTIVE_TOURNAMENT_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905419
+    m_Key: GAME_OBJECTIVE_WINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905420
+    m_Key: GAME_STATUS_DEFEAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905421
+    m_Key: GAME_STATUS_DEFEATED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905422
+    m_Key: GAME_STATUS_LOSER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905423
+    m_Key: GAME_STATUS_TEAM_LOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099712
+    m_Key: GAME_STATUS_TEAM_WON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099713
+    m_Key: GAME_STATUS_VICTORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099714
+    m_Key: GAME_STATUS_WINNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099715
+    m_Key: GAME_STATUS_YOU_ARE_DEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099716
+    m_Key: GAME_STATUS_YOU_DIED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099717
+    m_Key: GAME_STATUS_YOU_LOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099718
+    m_Key: GAME_STATUS_YOU_LOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099719
+    m_Key: GAME_STATUS_YOU_WIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099720
+    m_Key: GAME_STATUS_YOU_WON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099721
+    m_Key: MENU_CAMERA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099722
+    m_Key: MENU_CAMERA_INVERTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099723
+    m_Key: MENU_CAMERA_NORMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099724
+    m_Key: MENU_CAMERA_XAXIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099725
+    m_Key: MENU_CAMERA_YAXIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099726
+    m_Key: MENU_CONTROLS_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280734294016
+    m_Key: MENU_CONTROLS_CLICK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488320
+    m_Key: MENU_CONTROLS_DEADZONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488321
+    m_Key: MENU_CONTROLS_DOUBLE_CLICK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488322
+    m_Key: MENU_CONTROLS_DRAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488323
+    m_Key: MENU_CONTROLS_DRAG_DROP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488324
+    m_Key: MENU_CONTROLS_FINGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488325
+    m_Key: MENU_CONTROLS_GAMEPAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488326
+    m_Key: MENU_CONTROLS_GYROSCOPE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682624
+    m_Key: MENU_CONTROLS_KEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682625
+    m_Key: MENU_CONTROLS_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682626
+    m_Key: MENU_CONTROLS_MOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682627
+    m_Key: MENU_CONTROLS_MOUSE_SENSITIVITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682628
+    m_Key: MENU_CONTROLS_PINCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071232
+    m_Key: MENU_CONTROLS_ROTATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071233
+    m_Key: MENU_CONTROLS_SCROLL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071234
+    m_Key: MENU_CONTROLS_SHAKE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071235
+    m_Key: MENU_CONTROLS_SPREAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071236
+    m_Key: MENU_CONTROLS_SWIPE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071237
+    m_Key: MENU_CONTROLS_TAP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071238
+    m_Key: MENU_CONTROLS_THE_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071239
+    m_Key: MENU_CONTROLS_THE_KEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071240
+    m_Key: MENU_CONTROLS_TILT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071241
+    m_Key: MENU_CUSTOMIZE_ARM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071242
+    m_Key: MENU_CUSTOMIZE_ARM_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071243
+    m_Key: MENU_CUSTOMIZE_CHEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071244
+    m_Key: MENU_CUSTOMIZE_CHIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071245
+    m_Key: MENU_CUSTOMIZE_COLOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071246
+    m_Key: MENU_CUSTOMIZE_EAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265536
+    m_Key: MENU_CUSTOMIZE_EAR_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265537
+    m_Key: MENU_CUSTOMIZE_EYE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265538
+    m_Key: MENU_CUSTOMIZE_EYE_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265539
+    m_Key: MENU_CUSTOMIZE_FEET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265540
+    m_Key: MENU_CUSTOMIZE_FOOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265541
+    m_Key: MENU_CUSTOMIZE_HAIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265542
+    m_Key: MENU_CUSTOMIZE_HAIR_BEARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265543
+    m_Key: MENU_CUSTOMIZE_HAIR_FUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265544
+    m_Key: MENU_CUSTOMIZE_HAIR_HEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265545
+    m_Key: MENU_CUSTOMIZE_HAND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265546
+    m_Key: MENU_CUSTOMIZE_HAND_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265547
+    m_Key: MENU_CUSTOMIZE_HEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265548
+    m_Key: MENU_CUSTOMIZE_HIPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265549
+    m_Key: MENU_CUSTOMIZE_LEG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459840
+    m_Key: MENU_CUSTOMIZE_LEG_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459841
+    m_Key: MENU_CUSTOMIZE_MOUTH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459842
+    m_Key: MENU_CUSTOMIZE_NECK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459843
+    m_Key: MENU_CUSTOMIZE_NOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459844
+    m_Key: MENU_CUSTOMIZE_SKIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459845
+    m_Key: MENU_CUSTOMIZE_THORAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654144
+    m_Key: MENU_DIFFICULTY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654145
+    m_Key: MENU_DIFFICULTY_EASY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654146
+    m_Key: MENU_DIFFICULTY_HARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654147
+    m_Key: MENU_DIFFICULTY_IMPOSSIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654148
+    m_Key: MENU_DIFFICULTY_INSANE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654149
+    m_Key: MENU_DIFFICULTY_MEDIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654150
+    m_Key: MENU_DIFFICULTY_VERY_EASY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654151
+    m_Key: MENU_DIFFICULTY_VERY_HARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654152
+    m_Key: MENU_DIR_DOWN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654153
+    m_Key: MENU_DIR_LEFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654154
+    m_Key: MENU_DIR_RIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848448
+    m_Key: MENU_DIR_UP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848449
+    m_Key: MENU_IO_LOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848450
+    m_Key: MENU_IO_LOAD_GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848451
+    m_Key: MENU_IO_LOADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848452
+    m_Key: MENU_IO_PLEASE_WAIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848453
+    m_Key: MENU_IO_RESET_SAVE_DATA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848454
+    m_Key: MENU_IO_SAVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848455
+    m_Key: MENU_IO_SAVE_DATA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848456
+    m_Key: MENU_IO_SAVE_GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042752
+    m_Key: MENU_IO_SAVING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042753
+    m_Key: MENU_LABEL_ALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042754
+    m_Key: MENU_LABEL_AGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042755
+    m_Key: MENU_LABEL_ARE_YOU_REALLY_SURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042756
+    m_Key: MENU_LABEL_ARE_YOU_SURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042757
+    m_Key: MENU_LABEL_BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042758
+    m_Key: MENU_LABEL_BACKGROUND_MUSIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042759
+    m_Key: MENU_LABEL_CANCEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042760
+    m_Key: MENU_LABEL_CLOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042761
+    m_Key: MENU_LABEL_CONFIRM_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042762
+    m_Key: MENU_LABEL_CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042763
+    m_Key: MENU_LABEL_CONTINUE_QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042764
+    m_Key: MENU_LABEL_CREDITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237056
+    m_Key: MENU_LABEL_DESKTOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237057
+    m_Key: MENU_LABEL_DESKTOP_QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237058
+    m_Key: MENU_LABEL_DLC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237059
+    m_Key: MENU_LABEL_DOWNLOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237060
+    m_Key: MENU_LABEL_DOWNLOADABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237061
+    m_Key: MENU_LABEL_EXIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237062
+    m_Key: MENU_LABEL_EXIT_QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237063
+    m_Key: MENU_LABEL_EXTRAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237064
+    m_Key: MENU_LABEL_FRAMESPERSEC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237065
+    m_Key: MENU_LABEL_GALLERY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431360
+    m_Key: MENU_LABEL_GOODBYE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431361
+    m_Key: MENU_LABEL_GRAPHICS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431362
+    m_Key: MENU_LABEL_IAP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431363
+    m_Key: MENU_LABEL_LANGUAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431364
+    m_Key: MENU_LABEL_LEVEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431365
+    m_Key: MENU_LABEL_MAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431366
+    m_Key: MENU_LABEL_MAINMENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431367
+    m_Key: MENU_LABEL_MORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431368
+    m_Key: MENU_LABEL_MUSIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431369
+    m_Key: MENU_LABEL_MUSIC_PLAYER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625664
+    m_Key: MENU_LABEL_NEW_GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625665
+    m_Key: MENU_LABEL_NEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625666
+    m_Key: MENU_LABEL_NEXT_TRACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625667
+    m_Key: MENU_LABEL_NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625668
+    m_Key: MENU_LABEL_NO_CAPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625669
+    m_Key: MENU_LABEL_NOPE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625670
+    m_Key: MENU_LABEL_OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625671
+    m_Key: MENU_LABEL_PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625672
+    m_Key: MENU_LABEL_PAUSED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625673
+    m_Key: MENU_LABEL_PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625674
+    m_Key: MENU_LABEL_PLAY_AGAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819968
+    m_Key: MENU_LABEL_PRESS_ANYKEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819969
+    m_Key: MENU_LABEL_PRESS_ANYKEY_CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819970
+    m_Key: MENU_LABEL_PRESS_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819971
+    m_Key: MENU_LABEL_PRESS_START_CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819972
+    m_Key: MENU_LABEL_PREVIOUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819973
+    m_Key: MENU_LABEL_PREVIOUS_TRACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819974
+    m_Key: MENU_LABEL_PRICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819975
+    m_Key: MENU_LABEL_PRICE_FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819976
+    m_Key: MENU_LABEL_PURCHASE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014272
+    m_Key: MENU_LABEL_QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014273
+    m_Key: MENU_LABEL_QUIT_CONFIRM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014274
+    m_Key: MENU_LABEL_QUIT_QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014275
+    m_Key: MENU_LABEL_REPLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014276
+    m_Key: MENU_LABEL_RETURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014277
+    m_Key: MENU_LABEL_RETURN_MAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014278
+    m_Key: MENU_LABEL_RETURN_MAIN_QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014279
+    m_Key: MENU_LABEL_SHARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014280
+    m_Key: MENU_LABEL_SKIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014281
+    m_Key: MENU_LABEL_SOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014282
+    m_Key: MENU_LABEL_THANK_YOU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014283
+    m_Key: MENU_LABEL_UNLOCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014284
+    m_Key: MENU_LABEL_VIDEO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014285
+    m_Key: MENU_LABEL_VOICES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014286
+    m_Key: MENU_LABEL_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014287
+    m_Key: MENU_LABEL_WELCOME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014288
+    m_Key: MENU_LABEL_WORLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014289
+    m_Key: MENU_LABEL_YEAH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208576
+    m_Key: MENU_LABEL_YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208577
+    m_Key: MENU_LABEL_YES_CAPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208578
+    m_Key: MENU_LANGUAGE_DIRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208579
+    m_Key: MENU_LANGUAGE_THIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208580
+    m_Key: MENU_LANGUAGE_THIS_EN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208581
+    m_Key: MENU_LOGIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208582
+    m_Key: MENU_LOGIN_EMAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208583
+    m_Key: MENU_LOGIN_FORGOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208584
+    m_Key: MENU_LOGIN_PASSWORD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208585
+    m_Key: MENU_LOGIN_REGISTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208586
+    m_Key: MENU_LOGIN_REMEMBER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208587
+    m_Key: MENU_MODE_CHALLENGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402880
+    m_Key: MENU_MODE_CHALLENGE_MODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402881
+    m_Key: MENU_MODE_COOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402882
+    m_Key: MENU_MODE_COOPERATIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402883
+    m_Key: MENU_MODE_DEATHMATCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402884
+    m_Key: MENU_MODE_HELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402885
+    m_Key: MENU_MODE_INSTRUCTIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402886
+    m_Key: MENU_MODE_MULTIPLAYER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597184
+    m_Key: MENU_MODE_MULTIPLAYER_LOCAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597185
+    m_Key: MENU_MODE_MULTIPLAYER_ONLINE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597186
+    m_Key: MENU_MODE_PLAY_ONLINE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597187
+    m_Key: MENU_MODE_SINGLEPLAYER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597188
+    m_Key: MENU_MODE_TRAINING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597189
+    m_Key: MENU_MODE_TUTORIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597190
+    m_Key: MENU_MODE_VERSUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597191
+    m_Key: MENU_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597192
+    m_Key: MENU_NAME_FIRST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597193
+    m_Key: MENU_NAME_LAST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597194
+    m_Key: MENU_NAME_USER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597195
+    m_Key: MENU_OPTIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597196
+    m_Key: MENU_OPTIONS_ADVANCEDGRAPHICS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597197
+    m_Key: MENU_OPTIONS_ANTIALIASING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597198
+    m_Key: MENU_OPTIONS_BLOOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597199
+    m_Key: MENU_OPTIONS_CONTROLS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597200
+    m_Key: MENU_OPTIONS_DIFFICULTY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791488
+    m_Key: MENU_OPTIONS_DISPLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791489
+    m_Key: MENU_OPTIONS_FIRST_PERSON_VIEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791490
+    m_Key: MENU_OPTIONS_FOV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791491
+    m_Key: MENU_OPTIONS_FULLSCREEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791492
+    m_Key: MENU_OPTIONS_GAMEPLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791493
+    m_Key: MENU_OPTIONS_GRAPHICS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791494
+    m_Key: MENU_OPTIONS_HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791495
+    m_Key: MENU_OPTIONS_MUSIC_VOLUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791496
+    m_Key: MENU_OPTIONS_NETWORK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791497
+    m_Key: MENU_OPTIONS_QUALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791498
+    m_Key: MENU_OPTIONS_RESOLUTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985792
+    m_Key: MENU_OPTIONS_SFX_VOLUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985793
+    m_Key: MENU_OPTIONS_SHADOW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985794
+    m_Key: MENU_OPTIONS_SHADOW_PLURAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985795
+    m_Key: MENU_OPTIONS_SIZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985796
+    m_Key: MENU_OPTIONS_SOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985797
+    m_Key: MENU_OPTIONS_SOUND_VOLUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985798
+    m_Key: MENU_OPTIONS_SPLITSCREEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985799
+    m_Key: MENU_OPTIONS_THIRD_PERSON_VIEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123136
+    m_Key: MENU_OPTIONS_VIDEO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123137
+    m_Key: MENU_OPTIONS_VIDEO_QUALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123138
+    m_Key: MENU_OPTIONS_VOICE_VOLUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123139
+    m_Key: MENU_OPTIONS_VSYNC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123140
+    m_Key: MENU_OPTIONS_WINDOWED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123141
+    m_Key: MENU_OPTIONS_SHADER_DETAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123142
+    m_Key: MENU_OPTIONS_TEXTURE_DETAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123143
+    m_Key: MENU_OPTIONS_MULTICORE_RENDERING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123144
+    m_Key: MENU_OPTIONS_MODEL_DETAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123145
+    m_Key: MENU_OPTIONS_WIDESCREEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123146
+    m_Key: MENU_OPTIONS_EFFECT_DETAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123147
+    m_Key: MENU_OPTIONS_FILTERING_ANISOTROPIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123148
+    m_Key: MENU_OPTIONS_FILTERING_BILINEAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123149
+    m_Key: MENU_OPTIONS_FILTERING_TRILINEAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123150
+    m_Key: MENU_OPTIONS_FILTERING_MODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317440
+    m_Key: MENU_SETTING_ULTRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317441
+    m_Key: MENU_SETTING_VERY_HIGH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317442
+    m_Key: MENU_SETTING_HIGH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317443
+    m_Key: MENU_SETTING_MEDIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317444
+    m_Key: MENU_SETTING_LOW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317445
+    m_Key: MENU_VERSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317446
+    m_Key: MENU_VERSION_DEMO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317447
+    m_Key: MENU_VERSION_FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317448
+    m_Key: MENU_VERSION_FULL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317449
+    m_Key: MENU_VERSION_LITE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317450
+    m_Key: MENU_VERSION_PREMIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317451
+    m_Key: MENU_VERSION_SHAREWARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317452
+    m_Key: MENU_VERSION_TRIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317453
+    m_Key: MENU_VR_COMFORT_MODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317454
+    m_Key: MENU_VR_HMD_ORIENT_RESET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317455
+    m_Key: MENU_VR_VIRTUAL_REALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580761815511040
+    m_Key: MENU_OPTION_GIVEUP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581003801686016
+    m_Key: GAME_LABEL_STAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581433768177664
+    m_Key: GAME_LABEL_INTRO_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581648952750080
+    m_Key: GAME_LABEL_INTRO_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581672969334784
+    m_Key: GAME_LABEL_INTRO_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581696201584640
+    m_Key: GAME_LABEL_INTRO_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581709417836544
+    m_Key: GAME_LABEL_BOSS_LASERSHIP_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582901103489024
+    m_Key: GAME_LABEL_BOSS_LASERSHIP_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582932741124096
+    m_Key: GAME_LABEL_BOSS_CENTIPEDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582963346960384
+    m_Key: GAME_LABEL_BOSS_DOOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582997798973440
+    m_Key: GAME_LABEL_BOSS_STARSHIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583022436315136
+    m_Key: GAME_LABEL_BOSS_FISH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583057668468736
+    m_Key: GAME_LABEL_BOSS_BEAST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 586493940101120
+    m_Key: GAME_LABEL_BOSS_FINAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 695891752546304
+    m_Key: GAME_LABEL_STAGECLEAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 696990173655040
+    m_Key: GAME_LABEL_KILLS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697210831794176
+    m_Key: GAME_LABEL_COMBO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697666597449728
+    m_Key: GAME_LABEL_BLUNDERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699960982401024
+    m_Key: GAME_LABEL_BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775441857540096
+    m_Key: GAME_LABEL_RETRY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776388927188992
+    m_Key: END_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776430572433408
+    m_Key: END_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776465125109760
+    m_Key: END_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776497098289152
+    m_Key: END_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776536591855616
+    m_Key: END_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776569382924288
+    m_Key: END_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776617537728512
+    m_Key: END_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776659568848896
+    m_Key: END_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 787864484212736
+    m_Key: GAME_LABEL_BLACKHOLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790520208453632
+    m_Key: TUTORIAL_BEAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790569193730048
+    m_Key: TUTORIAL_DAMAGE
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1133428770562375931
+  references:
+    version: 2
+    RefIds:
+    - rid: 1133428770562375931
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1684749329631

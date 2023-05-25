@@ -177,7 +177,7 @@ public class PlayerController : Shootable<PlayerData>
 
         _currentSteer = (_currentSteer + _movementInput.x * data.steerImpact * Manager.deltaTime) * data.steerFalloff;
         ExternalInputFalloff();
-        _speed = _externalInput + new Vector2(_currentSteer, _currentVelocity) * (!_isFocusing ? 1 : 0.1f);
+        _speed = _externalInput + new Vector2(_currentSteer, _currentVelocity) * (!_isFocusing ? 1 : (0.45f - 0.4f * (LimitMeter.Value * LimitMeter.Value)));
 
         Vector3 carEulerAngles = carSprite.transform.localEulerAngles;
         carEulerAngles.z =  Mathf.SmoothStep(_targetCarAngle, _currentVelocity * angleMultiplier, 0.5f);
@@ -339,6 +339,10 @@ public class PlayerController : Shootable<PlayerData>
 
     public void OnPause(InputAction.CallbackContext context)
     {
+        if (InputOverride)
+        {
+            return;
+        }
         if (context.ReadValue<float>() > 0.5f)
         {
             IsPaused.Value = true;
@@ -347,6 +351,10 @@ public class PlayerController : Shootable<PlayerData>
 
     public void OnUnpause(InputAction.CallbackContext context)
     {
+        if (InputOverride)
+        {
+            return;
+        }
         if (context.ReadValue<float>() > 0.5f)
         {
             IsPaused.Value = false;

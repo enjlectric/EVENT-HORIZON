@@ -16,7 +16,7 @@ MonoBehaviour:
   takesContactDamage: 1
   isSolid: 0
   ownContactDamage: 999
-  damage: 1
+  damage: 1.2
   health: 1
   armor: 0
   invulnerableTime: 0

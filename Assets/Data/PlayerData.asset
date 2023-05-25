@@ -24,8 +24,8 @@ MonoBehaviour:
   maxVelocity: 350
   steerImpact: 350
   maxSteer: 45
-  accelerationFalloff: 0.65
-  steerFalloff: 0.65
+  accelerationFalloff: 0.675
+  steerFalloff: 0.675
   driftSteerImpact: 5
   driftMinAngle: 3
   driftIdleAngle: 12

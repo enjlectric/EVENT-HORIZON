@@ -13,7 +13,6 @@ public class Stage1LongIntro : SerializedMonoBehaviour
     public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat VignetteValue;
     public Enjlectric.ScriptableData.Concrete.ScriptableDataInt WhiteFlashValue;
     public Enjlectric.ScriptableData.Concrete.ScriptableDataInt BackgroundProgress;
-    public Dictionary<string, List<string>> introTextByLanguage = new Dictionary<string, List<string>>();
 
     private Coroutine cutscene;
 
@@ -60,8 +59,14 @@ public class Stage1LongIntro : SerializedMonoBehaviour
 
     private IEnumerator Cutscene()
     {
+        List<string> strings = new List<string>();
+        for (int i = 0; i < texts.Count; i++)
+        {
+            strings.Add(texts[i].text);
+            texts[i].text = string.Empty;
+        }
         TransitionTexture.Value = TransitionTexture2D;
-        texts[0].DOText(introTextByLanguage[Language.Value][0], 2);
+        texts[0].DOText(strings[0], 2);
         float t = 0;
         while (t < 1.4f)
         {
@@ -70,10 +75,10 @@ public class Stage1LongIntro : SerializedMonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(1.7f);
-        for (int i = 1; i < introTextByLanguage[Language.Value].Count; i++)
+        for (int i = 1; i < texts.Count; i++)
         {
-            texts[i].DOText(introTextByLanguage[Language.Value][i], 2);
-            if (i < introTextByLanguage[Language.Value].Count - 1)
+            texts[i].DOText(strings[i], 2);
+            if (i < texts.Count - 1)
             {
                 yield return new WaitForSeconds(3.05f);
             } else

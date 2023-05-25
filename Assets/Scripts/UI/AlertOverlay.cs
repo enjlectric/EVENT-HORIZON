@@ -11,6 +11,7 @@ public class AlertOverlay : MonoBehaviour
     public CanvasGroup AlertText;
     private LayoutElement BackgroundLayout;
     public Text Text;
+    public UnityEngine.Localization.Components.LocalizeStringEvent localizeStringEvent;
 
     public Enjlectric.ScriptableData.Concrete.ScriptableDataString TextString;
     // Start is called before the first frame update
@@ -36,17 +37,25 @@ public class AlertOverlay : MonoBehaviour
 
     private IEnumerator AlertRoutine()
     {
-        if (TextString.Value[0] == '!')
+        localizeStringEvent.SetEntry(TextString.Value);
+        localizeStringEvent.RefreshString();
+
+        var ts = localizeStringEvent.StringReference.GetLocalizedString();
+
+        if (ts[0] == '!')
         {
-            TextString.SetValueWithoutNotify(TextString.Value.TrimStart('!'));
+            ts = (ts.TrimStart('!'));
             SFX.UI_Alert_Big.Play();
-        } else if (TextString.Value[0] == '?')
+        } else if (ts[0] == '?')
         {
-            TextString.SetValueWithoutNotify(TextString.Value.TrimStart('?'));
+            ts = (ts.TrimStart('?'));
         } else 
         {
             SFX.UI_Alert_Small.Play();
         }
+
+        Text.text = string.Empty;
+
         Exclamation.DOFade(1, 0.35f).SetEase(Ease.OutQuad);
         Exclamation.transform.localPosition = 0 * Vector3.left;
         AlertText.transform.localPosition = 0 * Vector3.right;
@@ -63,7 +72,7 @@ public class AlertOverlay : MonoBehaviour
         BackgroundLayout.DOMinSize(new Vector2(130, 4), 0.5f).SetEase(Ease.OutBack);
         yield return new WaitForSeconds(0.5f);
         BackgroundLayout.DOMinSize(new Vector2(130, 34), 0.5f).SetEase(Ease.OutQuad);
-        Text.DOText(TextString.Value, 0.75f);
+        Text.DOText(ts, 0.75f);
         yield return new WaitForSeconds(3);
         transform.DOScaleY(0, 0.25f).SetEase(Ease.OutQuint);
         yield return new WaitForSeconds(0.25f);

@@ -302,6 +302,7 @@ MonoBehaviour:
   SFXGroupVolume: {fileID: 11400000, guid: 9a89d1e13236a9442bad685b3166c65b, type: 2}
   Vignette: {fileID: 11400000, guid: 2cdffe693a8a8ae4287552f49d9469e2, type: 2}
   VignetteTexture: {fileID: 11400000, guid: 0bc40f6092846e1428ea3ae94250c6e6, type: 2}
+  HardMode: {fileID: 11400000, guid: 5495c0b50602d0c43a8ec6e34bc57669, type: 2}
   VignetteTex: {fileID: 2800000, guid: 07e674a81e057f04a9e7668e35e8f8dc, type: 3}
   gameMode: {fileID: 11400000, guid: 0531399ca744e7c439de981c538ebb03, type: 2}
   GameSpeed: 8

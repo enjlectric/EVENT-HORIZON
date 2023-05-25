@@ -1,0 +1,2751 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Polytable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 575c41fcd6719334c8e53a7753b46686, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1133428814432174101
+  m_TableData:
+  - m_Id: 1913101119501
+    m_Localized: Wet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119500
+    m_Localized: Unhurt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119499
+    m_Localized: Unconscious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119498
+    m_Localized: Stunned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119497
+    m_Localized: Slowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119496
+    m_Localized: Poisoned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119495
+    m_Localized: Frozen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119494
+    m_Localized: Dead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119493
+    m_Localized: Critical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119492
+    m_Localized: Burning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119491
+    m_Localized: Third place
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119490
+    m_Localized: Second place
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119489
+    m_Localized: Place
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913101119488
+    m_Localized: First place
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925221
+    m_Localized: Zombies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925220
+    m_Localized: Zombie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925219
+    m_Localized: Wizard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925218
+    m_Localized: Warrior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925217
+    m_Localized: Thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925216
+    m_Localized: Soldier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925215
+    m_Localized: Sniper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925214
+    m_Localized: Skeleton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925213
+    m_Localized: Robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925212
+    m_Localized: Princess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925211
+    m_Localized: Prince
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925210
+    m_Localized: Priest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925209
+    m_Localized: Pirate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925208
+    m_Localized: Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925207
+    m_Localized: Monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925206
+    m_Localized: Medic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925205
+    m_Localized: Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925204
+    m_Localized: Goddess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925203
+    m_Localized: Gods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925202
+    m_Localized: God
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925201
+    m_Localized: Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925200
+    m_Localized: Dragons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925199
+    m_Localized: Dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925198
+    m_Localized: Demoness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925197
+    m_Localized: Demon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925196
+    m_Localized: Deity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925195
+    m_Localized: Cyborg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925194
+    m_Localized: Clone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925193
+    m_Localized: Alien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925192
+    m_Localized: Artificial Intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925191
+    m_Localized: New Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925190
+    m_Localized: Delete Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925189
+    m_Localized: Class
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925188
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925186
+    m_Localized: ltr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925185
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913096925184
+    m_Localized: enUS enGB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796564
+    m_Localized: Wounded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796565
+    m_Localized: Big
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796566
+    m_Localized: Huge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796567
+    m_Localized: Small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796568
+    m_Localized: Tiny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796569
+    m_Localized: Air
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280658796570
+    m_Localized: Earth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990848
+    m_Localized: Fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990849
+    m_Localized: Metal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990850
+    m_Localized: Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990851
+    m_Localized: Bet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990852
+    m_Localized: Discard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990853
+    m_Localized: Jackpot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990854
+    m_Localized: Max
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990855
+    m_Localized: Min
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990856
+    m_Localized: Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990857
+    m_Localized: Arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990858
+    m_Localized: Arrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990859
+    m_Localized: Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990860
+    m_Localized: Bomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990861
+    m_Localized: Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990862
+    m_Localized: Boots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990863
+    m_Localized: Bow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990864
+    m_Localized: Card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990865
+    m_Localized: Cards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990866
+    m_Localized: Chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990867
+    m_Localized: Magic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990868
+    m_Localized: Rusty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280662990869
+    m_Localized: Dagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185152
+    m_Localized: Die
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185153
+    m_Localized: Dice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185154
+    m_Localized: Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185155
+    m_Localized: Gauntlets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185156
+    m_Localized: Gem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185157
+    m_Localized: Gift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185158
+    m_Localized: Gifts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185159
+    m_Localized: Gloves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185160
+    m_Localized: Gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185161
+    m_Localized: Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185162
+    m_Localized: Helmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185163
+    m_Localized: Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185164
+    m_Localized: Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185165
+    m_Localized: Lock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185166
+    m_Localized: Love
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185167
+    m_Localized: Machine Gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185168
+    m_Localized: Magic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185169
+    m_Localized: Pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185170
+    m_Localized: Quest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185171
+    m_Localized: Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185172
+    m_Localized: Rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280667185173
+    m_Localized: Rocket Launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379456
+    m_Localized: RPG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379457
+    m_Localized: Scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379458
+    m_Localized: Shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379459
+    m_Localized: Shields
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379460
+    m_Localized: Energy shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379461
+    m_Localized: Energy shields
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379462
+    m_Localized: Shotgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379463
+    m_Localized: Sniper rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379464
+    m_Localized: Spell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379465
+    m_Localized: Staff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379466
+    m_Localized: Sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379467
+    m_Localized: Treasure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379468
+    m_Localized: Epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379469
+    m_Localized: Junk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379470
+    m_Localized: Wand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379471
+    m_Localized: Wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379472
+    m_Localized: Altitude
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379473
+    m_Localized: Brakes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379474
+    m_Localized: Chassis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379475
+    m_Localized: Depth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379476
+    m_Localized: Fuel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379477
+    m_Localized: Gear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379478
+    m_Localized: Handling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379479
+    m_Localized: Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379480
+    m_Localized: Steering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379481
+    m_Localized: Suspension
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379482
+    m_Localized: Wheels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379483
+    m_Localized: Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280671379484
+    m_Localized: Medal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573760
+    m_Localized: Bronze medal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573761
+    m_Localized: Gold medal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573762
+    m_Localized: Silver medal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573763
+    m_Localized: Bronze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573764
+    m_Localized: Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573765
+    m_Localized: Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573766
+    m_Localized: Ingot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573767
+    m_Localized: Platinum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573768
+    m_Localized: Silver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573769
+    m_Localized: Castle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573770
+    m_Localized: Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573771
+    m_Localized: Dungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573772
+    m_Localized: Inn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573773
+    m_Localized: Planet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573774
+    m_Localized: Earth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573775
+    m_Localized: Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573776
+    m_Localized: Spaceship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573777
+    m_Localized: Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573778
+    m_Localized: Adventure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573779
+    m_Localized: Chapter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573780
+    m_Localized: Page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573781
+    m_Localized: Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573782
+    m_Localized: Game development
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573783
+    m_Localized: Game developer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573784
+    m_Localized: Developed by
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573785
+    m_Localized: Production
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573786
+    m_Localized: Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573787
+    m_Localized: Publisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280675573788
+    m_Localized: Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768064
+    m_Localized: Lead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768065
+    m_Localized: Assistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768066
+    m_Localized: Associate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768067
+    m_Localized: Senior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768068
+    m_Localized: Junior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768069
+    m_Localized: Chief Technical Officer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768070
+    m_Localized: Technical Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768071
+    m_Localized: Creative Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768072
+    m_Localized: Animation Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768073
+    m_Localized: Art Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768074
+    m_Localized: Audio Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768075
+    m_Localized: Design Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768076
+    m_Localized: Program Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768077
+    m_Localized: Project Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768078
+    m_Localized: Game design
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768079
+    m_Localized: Game designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768080
+    m_Localized: Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768081
+    m_Localized: Programming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768082
+    m_Localized: Programmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768083
+    m_Localized: Programmers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768084
+    m_Localized: Lead programmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768085
+    m_Localized: Graphic designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280679768086
+    m_Localized: Technical artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962368
+    m_Localized: Concept artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962369
+    m_Localized: Character Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962370
+    m_Localized: Art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962371
+    m_Localized: Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962372
+    m_Localized: Artists
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962373
+    m_Localized: Level design
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962374
+    m_Localized: Level designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962375
+    m_Localized: Cinematics Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962376
+    m_Localized: Cinematic Animator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962377
+    m_Localized: Interface Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962378
+    m_Localized: Composer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962379
+    m_Localized: Musician
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962380
+    m_Localized: Special thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962381
+    m_Localized: Special thanks to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962382
+    m_Localized: Image
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962383
+    m_Localized: Images
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962384
+    m_Localized: Font
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962385
+    m_Localized: Fonts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962386
+    m_Localized: Soundtrack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962387
+    m_Localized: Writer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962388
+    m_Localized: Manuscript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962389
+    m_Localized: Script writer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962390
+    m_Localized: Animation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962391
+    m_Localized: Animator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962392
+    m_Localized: Voice acting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280683962393
+    m_Localized: Voice actor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156672
+    m_Localized: Sound designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156673
+    m_Localized: Sound engineer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156674
+    m_Localized: Sound Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156675
+    m_Localized: Visual Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156676
+    m_Localized: Recordist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156677
+    m_Localized: Foley artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156678
+    m_Localized: Test Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156679
+    m_Localized: Test Lead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156680
+    m_Localized: Tester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156681
+    m_Localized: Database Admin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156682
+    m_Localized: 3D Modeling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156683
+    m_Localized: Models
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156684
+    m_Localized: Localization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156685
+    m_Localized: Translation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156686
+    m_Localized: Translated by the Polyglot Project.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156687
+    m_Localized: Action game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156688
+    m_Localized: Adventure game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156689
+    m_Localized: Card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156690
+    m_Localized: Casual game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156691
+    m_Localized: Fantasy game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156692
+    m_Localized: Hardcore game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156693
+    m_Localized: Indie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156694
+    m_Localized: Medieval game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156695
+    m_Localized: Misc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156696
+    m_Localized: Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156697
+    m_Localized: Genre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156698
+    m_Localized: Platformer game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156699
+    m_Localized: Puzzle game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156700
+    m_Localized: Quiz game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156701
+    m_Localized: Racing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156702
+    m_Localized: Retro game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156703
+    m_Localized: Roleplaying game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156704
+    m_Localized: Real-time strategy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156705
+    m_Localized: Science fiction game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156706
+    m_Localized: Shooter game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156707
+    m_Localized: Simulation game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156708
+    m_Localized: Singleplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156709
+    m_Localized: Sports game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280688156710
+    m_Localized: Strategy game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350976
+    m_Localized: Turn-based strategy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350977
+    m_Localized: Tower defence game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350978
+    m_Localized: No {0} detected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280692350979
+    m_Localized: Leaving tracking area.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933888
+    m_Localized: No HMD detected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933889
+    m_Localized: 'Error code:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933890
+    m_Localized: An error has occured.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933891
+    m_Localized: Invalid name.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933892
+    m_Localized: Invalid CD Key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933893
+    m_Localized: Cheats detected!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933894
+    m_Localized: Connection lost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933895
+    m_Localized: Your opponent has disconnected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933896
+    m_Localized: The other player has disconnected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933897
+    m_Localized: Your teammate has disconnected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933898
+    m_Localized: Cannot connect to server.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933899
+    m_Localized: Save file corrupted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933900
+    m_Localized: No games found.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933901
+    m_Localized: No open games.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933902
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933903
+    m_Localized: Boost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933904
+    m_Localized: Build
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933905
+    m_Localized: Cast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933906
+    m_Localized: Cast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933907
+    m_Localized: Claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933908
+    m_Localized: Climb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933909
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280704933910
+    m_Localized: Collect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128192
+    m_Localized: Cook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128193
+    m_Localized: Craft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128194
+    m_Localized: Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128195
+    m_Localized: Dodge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128196
+    m_Localized: Drive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128197
+    m_Localized: Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128198
+    m_Localized: Full Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128199
+    m_Localized: Go
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128200
+    m_Localized: Go to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128201
+    m_Localized: Half Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128202
+    m_Localized: Heal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128203
+    m_Localized: Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128204
+    m_Localized: Landing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128205
+    m_Localized: Look
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280709128206
+    m_Localized: Mix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322496
+    m_Localized: Open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322497
+    m_Localized: Pick up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322498
+    m_Localized: Race
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322499
+    m_Localized: Read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322500
+    m_Localized: Replace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322501
+    m_Localized: Run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322502
+    m_Localized: Run away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322503
+    m_Localized: Shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322504
+    m_Localized: Sneak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322505
+    m_Localized: Spin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322506
+    m_Localized: Sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322507
+    m_Localized: Steer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322508
+    m_Localized: Takeoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322509
+    m_Localized: Talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322510
+    m_Localized: Throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322511
+    m_Localized: Walk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322512
+    m_Localized: Endurance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322513
+    m_Localized: Experience points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322514
+    m_Localized: Female
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322515
+    m_Localized: Health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322516
+    m_Localized: Heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322517
+    m_Localized: Hearts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322518
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322519
+    m_Localized: Level up!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322520
+    m_Localized: Lives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322521
+    m_Localized: Male
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322522
+    m_Localized: Man
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322523
+    m_Localized: Men
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280713322524
+    m_Localized: Respawn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516800
+    m_Localized: 'Respawn in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516801
+    m_Localized: Respawn?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516802
+    m_Localized: Respawning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516803
+    m_Localized: Skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516804
+    m_Localized: Spawn Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516805
+    m_Localized: Transgender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516806
+    m_Localized: Woman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516807
+    m_Localized: Women
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516808
+    m_Localized: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516809
+    m_Localized: Critical Hit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516810
+    m_Localized: Critical Miss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516811
+    m_Localized: Hit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516812
+    m_Localized: Hit points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516813
+    m_Localized: Miss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516814
+    m_Localized: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516815
+    m_Localized: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516816
+    m_Localized: Enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516817
+    m_Localized: Enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516818
+    m_Localized: Enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516819
+    m_Localized: Enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516820
+    m_Localized: Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516821
+    m_Localized: Ammo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516822
+    m_Localized: Ammunition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516823
+    m_Localized: Bullet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516824
+    m_Localized: Bullets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516825
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516826
+    m_Localized: Inventory Capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516827
+    m_Localized: Drop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516828
+    m_Localized: Encumbrance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516829
+    m_Localized: Inventory Full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516830
+    m_Localized: Item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280717516831
+    m_Localized: Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711104
+    m_Localized: Power-up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711105
+    m_Localized: Sell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711106
+    m_Localized: Use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711107
+    m_Localized: Weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711108
+    m_Localized: Weapons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711109
+    m_Localized: You cannot carry any more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711110
+    m_Localized: Be careful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711111
+    m_Localized: Please be careful.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711112
+    m_Localized: Tactics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711113
+    m_Localized: Objective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711114
+    m_Localized: Assist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711115
+    m_Localized: Assists
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711116
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711117
+    m_Localized: Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711118
+    m_Localized: Capture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711119
+    m_Localized: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711120
+    m_Localized: Death
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711121
+    m_Localized: Deaths
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711122
+    m_Localized: Defend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711123
+    m_Localized: Destroy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711124
+    m_Localized: Escape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711125
+    m_Localized: The End
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711126
+    m_Localized: Game over!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711127
+    m_Localized: MISSION FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711128
+    m_Localized: High score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711129
+    m_Localized: Incomplete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711130
+    m_Localized: Kill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711131
+    m_Localized: Kill Assist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711132
+    m_Localized: Kill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711133
+    m_Localized: Kills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711134
+    m_Localized: Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711135
+    m_Localized: Losses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711136
+    m_Localized: Match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711137
+    m_Localized: Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711138
+    m_Localized: Mission Objectives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280721711139
+    m_Localized: Mission Objective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905408
+    m_Localized: Multiplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905409
+    m_Localized: Objectives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905410
+    m_Localized: Position
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905411
+    m_Localized: Lap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905412
+    m_Localized: Laps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905413
+    m_Localized: Round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905414
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905415
+    m_Localized: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905416
+    m_Localized: Time left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905417
+    m_Localized: Tournament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905418
+    m_Localized: Tournaments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905419
+    m_Localized: Wins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905420
+    m_Localized: Defeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905421
+    m_Localized: You have been defeated.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905422
+    m_Localized: Loser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280725905423
+    m_Localized: Your team lost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099712
+    m_Localized: Your team won!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099713
+    m_Localized: Victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099714
+    m_Localized: Winner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099715
+    m_Localized: You are dead.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099716
+    m_Localized: You died.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099717
+    m_Localized: You lose!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099718
+    m_Localized: You lost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099719
+    m_Localized: You win!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099720
+    m_Localized: You won!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099721
+    m_Localized: Camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099722
+    m_Localized: Inverted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099723
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099724
+    m_Localized: Camera X-Axis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099725
+    m_Localized: Camera Y-Axis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280730099726
+    m_Localized: Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280734294016
+    m_Localized: Click
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488320
+    m_Localized: Dead zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488321
+    m_Localized: Double-click
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488322
+    m_Localized: Drag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488323
+    m_Localized: Drag and drop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488324
+    m_Localized: Finger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488325
+    m_Localized: Gamepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280738488326
+    m_Localized: Gyroscope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682624
+    m_Localized: Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682625
+    m_Localized: Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682626
+    m_Localized: Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682627
+    m_Localized: Mouse sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280742682628
+    m_Localized: Pinch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071232
+    m_Localized: Rotate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071233
+    m_Localized: Scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071234
+    m_Localized: Shake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071235
+    m_Localized: Spread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071236
+    m_Localized: Swipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071237
+    m_Localized: Tap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071238
+    m_Localized: The button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071239
+    m_Localized: The key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071240
+    m_Localized: Tilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071241
+    m_Localized: Arm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071242
+    m_Localized: Arms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071243
+    m_Localized: Chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071244
+    m_Localized: Chin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071245
+    m_Localized: Color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280751071246
+    m_Localized: Ear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265536
+    m_Localized: Ears
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265537
+    m_Localized: Eye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265538
+    m_Localized: Eyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265539
+    m_Localized: Feet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265540
+    m_Localized: Foot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265541
+    m_Localized: Hair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265542
+    m_Localized: Beard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265543
+    m_Localized: Fur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265544
+    m_Localized: Hair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265545
+    m_Localized: Hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265546
+    m_Localized: Hands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265547
+    m_Localized: Head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265548
+    m_Localized: Hips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280755265549
+    m_Localized: Leg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459840
+    m_Localized: Legs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459841
+    m_Localized: Mouth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459842
+    m_Localized: Neck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459843
+    m_Localized: Nose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459844
+    m_Localized: Skin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280759459845
+    m_Localized: Thorax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654144
+    m_Localized: Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654145
+    m_Localized: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654146
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654147
+    m_Localized: Impossible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654148
+    m_Localized: Insane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654149
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654150
+    m_Localized: Very Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654151
+    m_Localized: Very Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654152
+    m_Localized: Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654153
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280763654154
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848448
+    m_Localized: Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848449
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848450
+    m_Localized: Load Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848451
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848452
+    m_Localized: Please wait...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848453
+    m_Localized: Reset save data?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848454
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848455
+    m_Localized: Save data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280767848456
+    m_Localized: Save Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042752
+    m_Localized: Saving...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042753
+    m_Localized: All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042754
+    m_Localized: Age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042755
+    m_Localized: Are you really sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042756
+    m_Localized: Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042757
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042758
+    m_Localized: Background music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042759
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042760
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042761
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042762
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042763
+    m_Localized: Continue?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280772042764
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237056
+    m_Localized: Exit to Desktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237057
+    m_Localized: Exit to Desktop?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237058
+    m_Localized: DLC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237059
+    m_Localized: Download
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237060
+    m_Localized: Downloadable content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237061
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237062
+    m_Localized: Exit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237063
+    m_Localized: Extras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237064
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280776237065
+    m_Localized: Art gallery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431360
+    m_Localized: Goodbye!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431361
+    m_Localized: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431362
+    m_Localized: In-app purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431363
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431364
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431365
+    m_Localized: Mail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431366
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431367
+    m_Localized: More
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431368
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280780431369
+    m_Localized: Music Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625664
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625665
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625666
+    m_Localized: Next track
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625667
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625668
+    m_Localized: NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625669
+    m_Localized: Nope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625670
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625671
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625672
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625673
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280784625674
+    m_Localized: Play again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819968
+    m_Localized: Press any key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819969
+    m_Localized: Press any key to continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819970
+    m_Localized: Press Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819971
+    m_Localized: Press Start to continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819972
+    m_Localized: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819973
+    m_Localized: Previous track
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819974
+    m_Localized: Price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819975
+    m_Localized: Free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280788819976
+    m_Localized: Purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014272
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014273
+    m_Localized: Are you sure you want to quit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014274
+    m_Localized: Quit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014275
+    m_Localized: Replay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014276
+    m_Localized: Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014277
+    m_Localized: Return to Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014278
+    m_Localized: Return to Main Menu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014279
+    m_Localized: Share
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014280
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014281
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014282
+    m_Localized: Thank you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014283
+    m_Localized: Unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014284
+    m_Localized: Video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014285
+    m_Localized: Voices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014286
+    m_Localized: Warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014287
+    m_Localized: Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014288
+    m_Localized: World
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280793014289
+    m_Localized: Yeah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208576
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208577
+    m_Localized: YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208578
+    m_Localized: ltr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208579
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208580
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208581
+    m_Localized: Login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208582
+    m_Localized: E-mail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208583
+    m_Localized: Forgot password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208584
+    m_Localized: Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208585
+    m_Localized: Register
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208586
+    m_Localized: Remember?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280797208587
+    m_Localized: Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402880
+    m_Localized: Challenge mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402881
+    m_Localized: Co-op
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402882
+    m_Localized: Cooperative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402883
+    m_Localized: Deathmatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402884
+    m_Localized: Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402885
+    m_Localized: Instructions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280801402886
+    m_Localized: Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597184
+    m_Localized: Local Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597185
+    m_Localized: Online Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597186
+    m_Localized: Play Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597187
+    m_Localized: Singleplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597188
+    m_Localized: Training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597189
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597190
+    m_Localized: Versus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597191
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597192
+    m_Localized: First Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597193
+    m_Localized: Last Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597194
+    m_Localized: Username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597195
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597196
+    m_Localized: Advanced Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597197
+    m_Localized: Anti-aliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597198
+    m_Localized: Bloom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597199
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280805597200
+    m_Localized: Difficulty Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791488
+    m_Localized: Display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791489
+    m_Localized: First Person View
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791490
+    m_Localized: FOV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791491
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791492
+    m_Localized: Gameplay Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791493
+    m_Localized: Graphics Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791494
+    m_Localized: HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791495
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791496
+    m_Localized: Network Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791497
+    m_Localized: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280809791498
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985792
+    m_Localized: Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985793
+    m_Localized: Shadow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985794
+    m_Localized: Shadows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985795
+    m_Localized: Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985796
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985797
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985798
+    m_Localized: Splitscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280813985799
+    m_Localized: Third Person View
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123136
+    m_Localized: Video Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123137
+    m_Localized: Video Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123138
+    m_Localized: Voice volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123139
+    m_Localized: V-sync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123140
+    m_Localized: Windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123141
+    m_Localized: Shader detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123142
+    m_Localized: Texture detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123143
+    m_Localized: Multicore rendering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123144
+    m_Localized: Model detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123145
+    m_Localized: Widescreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123146
+    m_Localized: Effect detail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123147
+    m_Localized: Anisotropic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123148
+    m_Localized: Bilinear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123149
+    m_Localized: Trilinear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280860123150
+    m_Localized: Filtering mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317440
+    m_Localized: Ultra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317441
+    m_Localized: Very High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317442
+    m_Localized: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317443
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317444
+    m_Localized: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317445
+    m_Localized: Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317446
+    m_Localized: Demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317447
+    m_Localized: Free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317448
+    m_Localized: Full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317449
+    m_Localized: Lite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317450
+    m_Localized: Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317451
+    m_Localized: Shareware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317452
+    m_Localized: Trial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317453
+    m_Localized: VR comfort mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317454
+    m_Localized: HMD orientation reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1280864317455
+    m_Localized: Virtual Reality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580761815511040
+    m_Localized: Give up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581003801686016
+    m_Localized: STAGE {var}
+    m_Metadata:
+      m_Items:
+      - rid: 1133428814432174101
+  - m_Id: 581433768177664
+    m_Localized: In a clear and starry night,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581648952750080
+    m_Localized: everyone already fast asleep,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581672969334784
+    m_Localized: an alien invasion threatens our world.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581696201584640
+    m_Localized: Go forth and save us, LASER WING!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581709417836544
+    m_Localized: 'AN ENEMY COMMANDER IS APPROACHING.
+
+      EQUIPPED WITH DUAL DEFENCE
+      SHIELD.
+
+      PREPARE YOURSELF.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582932741124096
+    m_Localized: '!UNIDENTIFIED LIFEFORM NEARBY.
+
+      NO ESCAPE.
+
+      PREPARE
+      YOURSELF.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582963346960384
+    m_Localized: 'THE GATE IS NIGH.
+
+      EXPECT RESISTANCE.
+
+      PREPARE YOURSELF.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582997798973440
+    m_Localized: '!HERE COMES
+
+      BLACK HOLE KING.
+
+      PREPARE YOURSELF.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583022436315136
+    m_Localized: 'FIERCE LIFEFORM AHEAD.
+
+      PREPARE YOURSELF.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583057668468736
+    m_Localized: '!THE BEAST IS HERE.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 586493940101120
+    m_Localized: '?PUT AN END TO IT.
+
+      THIS IS YOUR LAST CHANCE.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582901103489024
+    m_Localized: 'HE''S BACK.
+
+      IMMUNE SHIELD.
+
+      USE BLACK HOLE LASER.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 695891752546304
+    m_Localized: STAGE RESULTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 696990173655040
+    m_Localized: Kills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697210831794176
+    m_Localized: Kill chain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697666597449728
+    m_Localized: Blunders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699960982401024
+    m_Localized: Bonus points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 775441857540096
+    m_Localized: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776388927188992
+    m_Localized: IN THE FAR REACHES OF OUTER SPACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776430572433408
+    m_Localized: AN EXPLOSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776465125109760
+    m_Localized: A BLAST THAT REVERBERATED ACROSS THE UNIVERSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776497098289152
+    m_Localized: A BLAST FELT BY ALL LIFE.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776536591855616
+    m_Localized: SOON THE SKY RETURNED TO ITS FAMILIAR HUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776569382924288
+    m_Localized: AND LIFE LOOKED UP TO THE STARS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776617537728512
+    m_Localized: AND SAW THAT THE BATTLE WAS WON.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 776659568848896
+    m_Localized: THANK YOU, LASER WING!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 787864484212736
+    m_Localized: Black Hole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790520208453632
+    m_Localized: Unleash built up energy for a powerful blow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790569193730048
+    m_Localized: Charge for too long and you take damage from the pressure!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1133428814432174101
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070367d6b100200

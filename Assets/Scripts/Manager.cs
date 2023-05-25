@@ -22,6 +22,7 @@ public class Manager : MonoBehaviour
     public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat SFXGroupVolume;
     public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat Vignette;
     public Enjlectric.ScriptableData.Concrete.ScriptableDataTexture2D VignetteTexture;
+    public Enjlectric.ScriptableData.Concrete.ScriptableDataBool HardMode;
     public Texture2D VignetteTex;
 
     public PlayerController player { get
@@ -306,9 +307,9 @@ public class Manager : MonoBehaviour
         var s = Score;
         Score += points;
 
-        var remainder = Mathf.FloorToInt(s / 5000.0f) > Mathf.FloorToInt(Score / 5000.0f);
+        var remainder = Mathf.FloorToInt(Score / 5000.0f) > Mathf.FloorToInt(s / 5000.0f);
 
-        if (remainder)
+        if (remainder && !HardMode.Value)
         {
             Manager.instance.player.AddHP();
         }
