@@ -72,12 +72,12 @@ public class LaserShipData : EnemyData<LaserShipConfig>
             _config.Barrier.ForceInvulnerable(250);
             behaviour.speed = Vector2.zero;
 
-            if (!_config.TopShip.dead && behaviour.HasSurpassedState(1, 4))
+            if (!_config.TopShip.dead && behaviour.HasSurpassedState(1.5f, 6))
             {
                 _config.TopShip.emitterContainer.emitters[0].EvaluateAllPatterns();
             }
 
-            if (!_config.BottomShip.dead && behaviour.HasSurpassedState(3, 4))
+            if (!_config.BottomShip.dead && behaviour.HasSurpassedState(4.5f, 6))
             {
                 _config.BottomShip.emitterContainer.emitters[0].EvaluateAllPatterns();
             }

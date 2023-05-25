@@ -30,12 +30,13 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: f9935568fd0b54e43a312db9abbceb8b, type: 3}
   animationSpeed: 0
-  speed: 12
+  speed: 4
+  speedModRandomRange: {x: 1, y: 4}
   gravity: {x: 0, y: 0}
   useSpeedCurve: 1
   speedOverTime:
     evaluationPattern: 0
-    timeMultiplier: 0.2
+    timeMultiplier: 0.15
     curve:
       serializedVersion: 2
       m_Curve:
@@ -235,7 +236,7 @@ MonoBehaviour:
   alignToSpeedInstead: 0
   rotationOverTime:
     evaluationPattern: 0
-    timeMultiplier: 0.2
+    timeMultiplier: 0.15
     curve:
       serializedVersion: 2
       m_Curve:
@@ -252,15 +253,15 @@ MonoBehaviour:
         time: 0.1
         value: 0
         inSlope: -0
-        outSlope: 999.998
+        outSlope: 28.574211
         tangentMode: 69
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.101
+        time: 0.1349966
         value: 1
-        inSlope: 999.998
+        inSlope: 28.574211
         outSlope: 0
         tangentMode: 69
         weightedMode: 0

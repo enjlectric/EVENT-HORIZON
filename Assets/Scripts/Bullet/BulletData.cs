@@ -17,6 +17,7 @@ public class BulletData : ShootableData
     public float animationSpeed;
     [Space]
     public float speed;
+    public Vector2 speedModRandomRange = Vector2.one;
     public Vector2 gravity;
     public bool useSpeedCurve;
     [ShowIf("useSpeedCurve")]
@@ -43,6 +44,7 @@ public class BulletData : ShootableData
 
     public SFX SpawnSound = SFX.None;
     public bool RepeatSpawnSound;
+    public bool PlayDeathSoundAlways;
     public SFX DeathSound = SFX.None;
 
     public float ColliderScale = 1;
@@ -80,6 +82,9 @@ public class BulletData : ShootableData
 
         behaviour.CircleCollider.enabled = false;
         behaviour.BoxCollider.enabled = false;
+        behaviour.spriteRenderer.drawMode = SpriteDrawMode.Simple;
+        behaviour.spriteRenderer.size = new Vector2(behaviour.spriteRenderer.size.x, behaviour.spriteRenderer.size.x);
+        behaviour.spriteRenderer.transform.localScale = Vector3.one;
 
         if (isLaser)
         {
@@ -89,10 +94,7 @@ public class BulletData : ShootableData
             behaviour.BoxCollider.size = Vector2.right * ColliderScale + Vector2.up * 100;
         } else
         {
-            behaviour.spriteRenderer.drawMode = SpriteDrawMode.Simple;
             behaviour.CircleCollider.radius = ColliderScale * 0.5f;
-            behaviour.spriteRenderer.size = new Vector2(behaviour.spriteRenderer.size.x, behaviour.spriteRenderer.size.x);
-            behaviour.spriteRenderer.transform.localScale = Vector3.one;
         }
 
     }

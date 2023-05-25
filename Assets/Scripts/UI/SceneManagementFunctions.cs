@@ -11,6 +11,10 @@ public class SceneManagementFunctions : MonoBehaviour
 
     public void ToMainMenu()
     {
+        if (Manager.instance.player != null)
+        {
+            Manager.instance.player.InputOverride = true;
+        }
         SFX.UI_Confirm.Play();
         Manager.instance.GoToMainMenu();
     }

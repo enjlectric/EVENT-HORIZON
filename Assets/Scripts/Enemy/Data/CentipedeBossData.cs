@@ -94,7 +94,7 @@ public class CentipedeBossData : EnemyData<CentipedeConfig>
 
         if (behaviour.state < 99)
         {
-            if (MaskManager.IsInBounds(_config.Segments[3].transform.position) && !MaskManager.IsInBounds(behaviour.transform.position))
+            if ((MaskManager.IsInBounds(_config.Segments[3].transform.position) && !MaskManager.IsInBounds(behaviour.transform.position)) || behaviour.HasSurpassedState(12.5f))
             {
                 if (RegularEnemy)
                 {

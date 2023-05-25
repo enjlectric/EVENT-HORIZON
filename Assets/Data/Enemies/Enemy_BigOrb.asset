@@ -147,3 +147,4 @@ MonoBehaviour:
     m_RotationOrder: 4
   speedTimeMultiplier: {x: 0, y: 0}
   SpritesheetAnimationIndices: 00000000
+  IgnoreOffscreenCheck: 0

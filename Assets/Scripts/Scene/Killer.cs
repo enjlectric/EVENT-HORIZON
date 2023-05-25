@@ -12,6 +12,11 @@ public class Killer : MonoBehaviour
         }
         if (collision.gameObject.GetComponentInParent<PoolableObject>() is PoolableObject obj)
         {
+            if (obj == Manager.instance.player)
+            {
+                return;
+            }
+
             if (obj is BulletBehaviour b && b.data.isLaser)
             {
                 return;

@@ -29,7 +29,7 @@ public class AnglerData : EnemyData<EnemyConfig>
 
         if (behaviour.state == 0)
         {
-            behaviour.speed = Vector2.left * 2.1f;
+            behaviour.speed = Vector2.left * 3.1f;
             if (behaviour.HasSurpassedState(3))
             {
                 behaviour.SwitchState(1);
@@ -45,12 +45,12 @@ public class AnglerData : EnemyData<EnemyConfig>
                 Shoot(behaviour, 2, 0);
             }
 
-            if (behaviour.HasSurpassedSubstate(0.5f, 0.5f))
+            if (behaviour.HasSurpassedSubstate(0.4f, 0.4f))
             {
                 Shoot(behaviour, 3, 0);
             }
 
-            if (behaviour.HasSurpassedSubstate(12))
+            if (behaviour.HasSurpassedSubstate(6))
             {
                 behaviour.substateTimer = 0;
             }
@@ -65,6 +65,7 @@ public class AnglerData : EnemyData<EnemyConfig>
                 pos.x = MaskManager.GetPositionRelativeToCam(1.4f, 0).x;
                 pos.y = Manager.instance.player.transform.position.y;
                 behaviour.transform.position = pos;
+                Shoot(behaviour, 3, 0);
             }
         }
 
@@ -77,6 +78,8 @@ public class AnglerData : EnemyData<EnemyConfig>
         References.DestroyObjectsOfType<BulletBehaviour>();
         behaviour.speed = 6 * Vector2.right;
         behaviour.SwitchState(2);
+
+        AbortRoutines(behaviour);
         base.OnPhaseTransition(behaviour);
     }
 

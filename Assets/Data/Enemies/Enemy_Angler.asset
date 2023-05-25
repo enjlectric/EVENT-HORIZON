@@ -17,17 +17,17 @@ MonoBehaviour:
   isSolid: 1
   ownContactDamage: 0
   damage: 1
-  health: 400
+  health: 460
   armor: 0
   invulnerableTime: 0.05
   lifetime: {x: 0, y: 0}
   phaseTransitions:
-  - 125
+  - 175
   layer: 10
   despawnBeforeEndOfLifetime: 0
   despawnEffect: {fileID: 0}
   deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
-  ScoreValue: 300
+  ScoreValue: 500
   NoInvulnerableSound: 0
   SpecialHitEffect: 32
   DeathSoundEffect: 46

@@ -357,7 +357,7 @@ public class PlayerController : Shootable<PlayerData>
         }
         if (context.ReadValue<float>() > 0.5f)
         {
-            IsPaused.Value = false;
+            //IsPaused.Value = false;
         }
     }
 

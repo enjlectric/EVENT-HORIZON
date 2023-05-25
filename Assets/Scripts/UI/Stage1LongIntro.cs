@@ -22,6 +22,8 @@ public class Stage1LongIntro : SerializedMonoBehaviour
 
     private Vector3 playerOffset = Vector3.zero;
 
+    private float timer = 0;
+    private bool isSkipping = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,9 +35,10 @@ public class Stage1LongIntro : SerializedMonoBehaviour
 
     private void LateUpdate()
     {
+        timer += Time.deltaTime;
         Manager.instance.player.transform.position = MaskManager.GetPositionRelativeToCam(-1.15f, 0) + playerOffset;
     }
-    public void SkipIntro()
+    public async void SkipIntro()
     {
         if (cutscene != null)
         {
@@ -46,7 +49,6 @@ public class Stage1LongIntro : SerializedMonoBehaviour
             WhiteFlashValue.Value = 3;
             Manager.instance.player.InputOverride = false;
             VignetteValue.Value = 0;
-            BackgroundProgress.Value++;
             Manager.instance.player.transform.position = MaskManager.GetPositionRelativeToCam(-1.15f, 0) + playerOffset;
             foreach (var e in HideWhenFlashing)
             {
@@ -54,6 +56,10 @@ public class Stage1LongIntro : SerializedMonoBehaviour
             }
 
             AudioManager.ChangeMusic(BGM.None, BGM.Stage1Loop);
+            await System.Threading.Tasks.Task.Yield();
+            await System.Threading.Tasks.Task.Yield();
+            await System.Threading.Tasks.Task.Yield();
+            BackgroundProgress.Value++;
         }
     }
 

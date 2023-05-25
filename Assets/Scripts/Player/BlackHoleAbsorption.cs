@@ -52,7 +52,6 @@ public class BlackHoleAbsorption : MonoBehaviour
                 } else
                 {
                     LimitMeterDamage.Value += b.data.damage * 0.1f;
-                    Manager.instance.AddPoints(2);
                 }
 
                 var val = Mathf.Clamp(Mathf.FloorToInt(LimitMeterDamage.Value * 4), 0, 3);

@@ -9,18 +9,20 @@ public class BossWarning : GameSection
     [TextArea] public string EnglishString;
     [TextArea] public string JapaneseString;
     public Enjlectric.ScriptableData.Concrete.ScriptableDataString StringValue;
+    public bool TurnOffMusic = true;
+    public bool PlayBossMusic = true;
 
     internal override IEnumerator ExecutionRoutine()
     {
         StringValue.Value = EnglishString;
 
-        if (EnglishString[0] == '!')
+        if (TurnOffMusic)
         {
             AudioManager.ChangeMusic(null, 2);
         }
         yield return new WaitForSeconds(2.5f);
 
-        if (EnglishString[0] == '!')
+        if (PlayBossMusic)
         {
             AudioManager.ChangeMusic(BGM.BossIntro, BGM.BossLoop);
         }

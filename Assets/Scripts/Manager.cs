@@ -305,13 +305,19 @@ public class Manager : MonoBehaviour
     public void AddPoints(int points)
     {
         var s = Score;
-        Score += points;
-
-        var remainder = Mathf.FloorToInt(Score / 5000.0f) > Mathf.FloorToInt(s / 5000.0f);
-
-        if (remainder && !HardMode.Value)
+        points += Mathf.CeilToInt(0.5f * currentCombo);
+        while (points > 0)
         {
-            Manager.instance.player.AddHP();
+            Score += Mathf.Min(points, 5000);
+
+            var remainder = Mathf.FloorToInt(Score / 5000.0f) > Mathf.FloorToInt(s / 5000.0f);
+
+            if (remainder)
+            {
+                Manager.instance.player.AddHP();
+            }
+
+            points -= Mathf.Min(points, 5000);
         }
     }
 

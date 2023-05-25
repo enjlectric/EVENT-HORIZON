@@ -17,7 +17,7 @@ MonoBehaviour:
   isSolid: 1
   ownContactDamage: 999
   damage: 1
-  health: 5
+  health: 8
   armor: 0
   invulnerableTime: 0
   lifetime: {x: 10, y: 10}
@@ -31,6 +31,7 @@ MonoBehaviour:
   - {fileID: 119370069, guid: f6cfebc25f641004fb0b593697007bcf, type: 3}
   animationSpeed: 14
   speed: 4
+  speedModRandomRange: {x: 0.7, y: 1.3}
   gravity: {x: 0, y: 0}
   useSpeedCurve: 0
   speedOverTime:
@@ -306,6 +307,8 @@ MonoBehaviour:
   onDeathSpawn:
   - {fileID: 0}
   spawnWhenKilled: 0
+  SpawnSound: -1
+  RepeatSpawnSound: 0
   DeathSound: 32
   ColliderScale: 1
   LaserWidth: 1

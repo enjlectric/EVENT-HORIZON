@@ -56,8 +56,8 @@ public class LevelTransition : GameSection
                 TransitionOpacity.Value = 1 - t;
                 yield return null;
             }
+            yield return new WaitForSeconds(0.25f);
         }
-        yield return new WaitForSeconds(0.25f);
     }
 
     void StopWaiting(Scene a, Scene b)

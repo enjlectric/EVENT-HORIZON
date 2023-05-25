@@ -26,8 +26,10 @@ MonoBehaviour:
   despawnBeforeEndOfLifetime: 0
   despawnEffect: {fileID: 0}
   deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
-  ScoreValue: 20
+  ScoreValue: 15
+  NoInvulnerableSound: 0
   SpecialHitEffect: -1
+  DeathSoundEffect: 41
   sprites:
   - {fileID: 341277869, guid: 26c8ae8af41eb3e43a7d392a1d599887, type: 3}
   - {fileID: 983709968, guid: 26c8ae8af41eb3e43a7d392a1d599887, type: 3}
@@ -122,3 +124,4 @@ MonoBehaviour:
     m_RotationOrder: 4
   speedTimeMultiplier: {x: 1, y: 1}
   SpritesheetAnimationIndices: 000000000100000002000000030000000400000005000000
+  IgnoreOffscreenCheck: 0

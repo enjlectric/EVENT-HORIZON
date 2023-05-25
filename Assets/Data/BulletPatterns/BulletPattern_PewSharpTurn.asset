@@ -41,13 +41,15 @@ MonoBehaviour:
   offsetOverLifetimeMultiplier: 1
   Telegraph: {fileID: 5082995473094221737, guid: 77d81a761e72875459b148de8ccac51d, type: 3}
   TelegraphLength: 0.4
+  TelegraphSound: -1
+  AlignTelegraph: 0
   bullets:
   - {fileID: 11400000, guid: 2b25ae3e6a1c06c4b92723c37b0c442d, type: 2}
   bulletListSearchType: 0
   bulletSpawnInterval:
   - 0.16666667
-  spawnInterval: 0
-  bulletCount: 6
+  spawnInterval: 0.25
+  bulletCount: 5
   xOffsetCurve:
     evaluationPattern: 0
     timeMultiplier: 1
@@ -393,26 +395,26 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
-        inSlope: 0.9
-        outSlope: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
         tangentMode: 34
         weightedMode: 0
         inWeight: 0
-        outWeight: 0.33333334
+        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 0.9
-        outSlope: 0.9
+        inSlope: 0
+        outSlope: 0
         tangentMode: 34
         weightedMode: 0
-        inWeight: 0.33333334
+        inWeight: 0
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    amplitudeMultiplier: 3
+    amplitudeMultiplier: 1
     frequencyOverTime:
       serializedVersion: 2
       m_Curve:

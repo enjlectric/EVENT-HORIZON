@@ -21,7 +21,7 @@ MonoBehaviour:
     enemyListSearchType: 0
     spawnEdge: 2
     spawnPos: 0
-    spawnDepth: 2
+    spawnDepth: 3
     spawnPosModBetweenSpawns: 0
     spawnDepthModBetweenSpawns: 0
     initialDelay: 0

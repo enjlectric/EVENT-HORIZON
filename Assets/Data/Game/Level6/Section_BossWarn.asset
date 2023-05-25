@@ -17,3 +17,5 @@ MonoBehaviour:
   EnglishString: GAME_LABEL_BOSS_FINAL
   JapaneseString: "\u6575\u306E\u4E2D\u4F50\u304C\u8FD1\u3065\u304D\u307E\u3059\u3002"
   StringValue: {fileID: 11400000, guid: a7a4692648085fb48b40549910926422, type: 2}
+  TurnOffMusic: 0
+  PlayBossMusic: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   isSolid: 1
   ownContactDamage: 0
   damage: 0
-  health: 9999
+  health: 999999
   armor: 0.1
   invulnerableTime: 0.05
   lifetime: {x: 0, y: 0}
@@ -27,7 +27,9 @@ MonoBehaviour:
   despawnEffect: {fileID: 0}
   deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
   ScoreValue: 0
+  NoInvulnerableSound: 0
   SpecialHitEffect: -1
+  DeathSoundEffect: 41
   sprites:
   - {fileID: 21300000, guid: 98a13f5394f3136448a476a85405daea, type: 3}
   deathFrame: 0
@@ -91,3 +93,4 @@ MonoBehaviour:
     m_RotationOrder: 4
   speedTimeMultiplier: {x: 0, y: 0}
   SpritesheetAnimationIndices: 00000000
+  IgnoreOffscreenCheck: 0

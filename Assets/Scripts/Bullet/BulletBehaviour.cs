@@ -44,7 +44,7 @@ public class BulletBehaviour : Shootable<BulletData>
         AnimationTimer = 0;
         spriteRenderer.transform.localRotation = Quaternion.identity;
         needsParentCheck = data.isLaser;
-        speedMod = 1;
+        speedMod = Random.Range(data.speedModRandomRange.x, data.speedModRandomRange.y);
         _speedIsForced = false;
 
         if (data.SpawnSound != SFX.None)
@@ -147,7 +147,7 @@ public class BulletBehaviour : Shootable<BulletData>
             Instantiate(data.hitEffect, transform.position, transform.rotation);
         }
 
-        if (_hp <= 0)
+        if (_hp <= 0 || data.PlayDeathSoundAlways)
         {
             if (data.DeathSound != SFX.None)
             {

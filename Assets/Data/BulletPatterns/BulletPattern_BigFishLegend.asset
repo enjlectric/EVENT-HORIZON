@@ -40,7 +40,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   offsetOverLifetimeMultiplier: 1
   Telegraph: {fileID: 1549175891913548721, guid: fa3afc8e14a7afe4a976ba6db64dcab2, type: 3}
-  TelegraphLength: 0.4
+  TelegraphLength: 0.35
+  TelegraphSound: -1
   AlignTelegraph: 0
   bullets:
   - {fileID: 11400000, guid: b17221411cdbe9a43a5f8ce8cb804b6f, type: 2}
@@ -49,7 +50,7 @@ MonoBehaviour:
   bulletListSearchType: 2
   bulletSpawnInterval:
   - 0.16666667
-  spawnInterval: 0.02
+  spawnInterval: 0.01
   bulletCount: 5
   xOffsetCurve:
     evaluationPattern: 0
@@ -322,7 +323,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     frequencyMultiplier: 1
   bulletYDirectionModCurve:
-    evaluationPattern: 0
+    evaluationPattern: 2
     timeMultiplier: 1
     curve:
       serializedVersion: 2
@@ -460,7 +461,7 @@ MonoBehaviour:
         value: 1
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0
         outWeight: 0
@@ -469,7 +470,7 @@ MonoBehaviour:
         value: 1
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0
         outWeight: 0

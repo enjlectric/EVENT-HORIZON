@@ -117,7 +117,7 @@ public class BulletPatternData : ScriptableObject
         {
             References.ResetParent<BulletBehaviour>(b.gameObject);
         }
-        b.speedMod = speed;
+        b.speedMod = b.speedMod * speed;
         b.DamageMultiplier = damageMult;
     }
 }

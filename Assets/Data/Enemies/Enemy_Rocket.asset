@@ -26,7 +26,8 @@ MonoBehaviour:
   despawnBeforeEndOfLifetime: 0
   despawnEffect: {fileID: 0}
   deathEffect: {fileID: 8037738364367190187, guid: e59094fbc7db49549a6b863e37e21312, type: 3}
-  ScoreValue: 10
+  ScoreValue: 5
+  NoInvulnerableSound: 0
   SpecialHitEffect: -1
   DeathSoundEffect: 40
   sprites:
