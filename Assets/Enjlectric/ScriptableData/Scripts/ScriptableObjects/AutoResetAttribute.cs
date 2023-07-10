@@ -1,11 +1,10 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 
 namespace Enjlectric.ScriptableData
 {
+    /// <summary>
+    /// Resets the attached field to the value of one of two other fields based on the UseProductionValues editor pref.
+    /// </summary>
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
     public class AutoResetAttribute : Attribute
     {
@@ -18,5 +17,4 @@ namespace Enjlectric.ScriptableData
             this.copySourceTestName = copySourceTestName;
         }
     }
-
 }

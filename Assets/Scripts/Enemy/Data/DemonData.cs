@@ -11,7 +11,7 @@ public class DemonData : EnemyData<DemonConfig>
     public float DistanceFrames;
     public ParticleSystem SegmentExplosion;
     public ParticleSystem ScreechEffect;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt BackgroundEventInt;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt BackgroundEventInt;
     public bool IsBoss;
 
     public override void OnStart(EnemyBehaviour behaviour)
@@ -126,13 +126,13 @@ public class DemonData : EnemyData<DemonConfig>
         {
             if (behaviour.substate == 0)
             {
-
                 behaviour.speed = Vector2.left * 1 + Vector2.right * Mathf.Min((behaviour.substateTimer) * 4, 2f);
                 if (behaviour.transform.position.x > MaskManager.GetPositionRelativeToCam(0.6f, 0).x)
                 {
                     behaviour.SwitchSubstate(1);
                 }
-            } else if (behaviour.substate == 1)
+            }
+            else if (behaviour.substate == 1)
             {
                 behaviour.speed.y = Mathf.Sin(Mathf.Sin(behaviour.stateTimer * 2) * 1.15f - behaviour.transform.position.y);
                 var speedY = behaviour.speed.y;
@@ -147,7 +147,8 @@ public class DemonData : EnemyData<DemonConfig>
                 }
                 behaviour.speed.y = speedY;
             }
-        } else if (behaviour.state == 3)
+        }
+        else if (behaviour.state == 3)
         {
             if (behaviour.HasSurpassedSubstate(2))
             {
@@ -160,7 +161,8 @@ public class DemonData : EnemyData<DemonConfig>
                 {
                     behaviour.speed.x = behaviour.speed.x - Manager.deltaTime * 14;
                     behaviour.speed.y = 0;
-                } else
+                }
+                else
                 {
                     behaviour.speed = behaviour.speed * (1 - Manager.deltaTime * 2f);
 
@@ -169,7 +171,8 @@ public class DemonData : EnemyData<DemonConfig>
                         BackgroundEventInt.Value++;
                         behaviour.substate = 1;
                         behaviour.substateTimer = 150f;
-                    } else
+                    }
+                    else
                     {
                         //if (behaviour.HasSurpassedSubstate(152.5f))
                         //{
@@ -177,7 +180,6 @@ public class DemonData : EnemyData<DemonConfig>
                         //    behaviour.Despawn();
                         //}
                     }
-                    
                 }
             }
             else if (behaviour.substateTimer > 4)
@@ -198,7 +200,8 @@ public class DemonData : EnemyData<DemonConfig>
 
                 if (behaviour.HasSurpassedSubstate(9.5f))
                 {
-                    foreach(var col in behaviour.GetComponentsInChildren<Collider2D>()) {
+                    foreach (var col in behaviour.GetComponentsInChildren<Collider2D>())
+                    {
                         col.enabled = false;
                     }
                     Manager.LockPlayerInput(true);

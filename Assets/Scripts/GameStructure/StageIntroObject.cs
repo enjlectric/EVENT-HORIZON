@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu(menuName = "Game/Level/StageIntro", fileName = "StageIntro")]
 public class StageIntroObject : GameSection
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt Event;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt Event;
     public int Type;
 
     internal override IEnumerator ExecutionRoutine()

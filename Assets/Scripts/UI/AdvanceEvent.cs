@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AdvanceEvent : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt StageEvent;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt StageEvent;
 
     public void Continue()
     {

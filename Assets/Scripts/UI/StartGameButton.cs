@@ -6,19 +6,19 @@ using UnityEngine.EventSystems;
 
 public class StartGameButton : MonoBehaviour
 {
-
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat VignetteOpacity;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataTexture2D VignetteTexture;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat VignetteOpacity;
+    public Enjlectric.ScriptableData.Types.ScriptableDataTexture2D VignetteTexture;
 
     public Transform LogoTransform;
 
     public Texture2D TransitionTexture;
+
     public void Click()
     {
         CoroutineManager.Start(StartGame());
     }
 
-    IEnumerator StartGame()
+    private IEnumerator StartGame()
     {
         SFX.StartGame.Play();
         AudioManager.ChangeMusic(null, 999);

@@ -1,14 +1,13 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-
 namespace Enjlectric.ScriptableData
 {
     [System.Serializable]
     [CreateAssetMenu(menuName = "Enjlectric/ScriptableData/Event")]
     public class SharedEvent : ScriptableObject
     {
-        [SerializeField]private UnityEvent _event;
+        [SerializeField] private UnityEvent _event;
 
         public void Invoke()
         {

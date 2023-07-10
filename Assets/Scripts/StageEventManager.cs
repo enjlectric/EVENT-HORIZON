@@ -5,11 +5,11 @@ using UnityEngine.Events;
 
 public class StageEventManager : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt StageProgress;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt StageProgress;
 
     public List<UnityEvent> Events = new List<UnityEvent>();
 
-    void Awake()
+    private void Awake()
     {
         StageProgress.SetValueWithoutNotify(0);
         StageProgress.OnValueChanged.AddListener(InvokeEvents);

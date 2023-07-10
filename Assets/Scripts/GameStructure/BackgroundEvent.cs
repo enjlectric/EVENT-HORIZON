@@ -7,7 +7,7 @@ using UnityEngine;
 public class BackgroundEvent : GameSection
 {
     public int SetProgressValue = -1;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt ProgressValue;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt ProgressValue;
 
     internal override IEnumerator ExecutionRoutine()
     {

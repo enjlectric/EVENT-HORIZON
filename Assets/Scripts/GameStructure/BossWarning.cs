@@ -8,7 +8,7 @@ public class BossWarning : GameSection
 {
     [TextArea] public string EnglishString;
     [TextArea] public string JapaneseString;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataString StringValue;
+    public Enjlectric.ScriptableData.Types.ScriptableDataString StringValue;
     public bool TurnOffMusic = true;
     public bool PlayBossMusic = true;
 

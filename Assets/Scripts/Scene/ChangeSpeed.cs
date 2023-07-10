@@ -7,7 +7,7 @@ public class ChangeSpeed : MonoBehaviour
     private Rigidbody2D _rb;
 
     public float xPosLimit;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt StageProgress;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt StageProgress;
     public bool triggered = false;
 
     private void Awake()
@@ -34,10 +34,12 @@ public class ChangeSpeed : MonoBehaviour
     {
         _rb.velocity = new Vector2(speed, _rb.velocity.y);
     }
+
     public void ChangeXAdd(float speed, float min)
     {
         _rb.velocity = new Vector2(Mathf.Max(min, speed + _rb.velocity.x), _rb.velocity.y);
     }
+
     public void ChangeY(float speed)
     {
         _rb.velocity = new Vector2(_rb.velocity.x, speed);

@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataBool PauseBool;
+    public Enjlectric.ScriptableData.Types.ScriptableDataBool PauseBool;
+
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         PauseBool.OnValueChanged.AddListener(PauseUnpause);
     }
-    void OnDestroy()
+
+    private void OnDestroy()
     {
         PauseBool.OnValueChanged.RemoveListener(PauseUnpause);
     }
 
-    void PauseUnpause()
+    private void PauseUnpause()
     {
         if (PauseBool.Value)
         {
@@ -24,7 +26,8 @@ public class PauseMenu : MonoBehaviour
             Time.timeScale = 0;
             AudioManager.SetMusicVolume(0.5f);
             AudioManager.PauseSFX(true);
-        } else
+        }
+        else
         {
             SFX.UI_Unpause.Play();
             //Manager.SetWorldInput();

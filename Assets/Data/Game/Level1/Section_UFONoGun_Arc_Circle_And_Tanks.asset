@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 0
   clearEnemyProjectilesOnWin: 0
+  SkipClearingPriorRoutine: 0
   enemySpawnList:
   - enemies:
     - {fileID: 11400000, guid: d1f0b457f46863a418f1ca2f581d2cdc, type: 2}
@@ -22,9 +23,13 @@ MonoBehaviour:
     spawnPos: 0.4
     spawnDepth: 0
     spawnPosModBetweenSpawns: 0
+    spawnDepthModBetweenSpawns: 0
     initialDelay: 0
     timeBetweenSpawns: 0.5
-    numberOfSpawns: 8
+    numberOfSpawns: 4
+    SpawnRotation: 0
+    SpawnParticles: {fileID: 0}
+    SpawnDelay: 0
   - enemies:
     - {fileID: 11400000, guid: f5b7e39b5d205e74586466905bf117ae, type: 2}
     enemyListSearchType: 0
@@ -32,17 +37,25 @@ MonoBehaviour:
     spawnPos: -0.4
     spawnDepth: 0
     spawnPosModBetweenSpawns: 0.8
+    spawnDepthModBetweenSpawns: 0
     initialDelay: 2
     timeBetweenSpawns: 0
     numberOfSpawns: 2
+    SpawnRotation: 0
+    SpawnParticles: {fileID: 0}
+    SpawnDelay: 0.6
   - enemies:
-    - {fileID: 11400000, guid: 3dcf7a197201ecc4eac87c0320534219, type: 2}
+    - {fileID: 11400000, guid: f5b7e39b5d205e74586466905bf117ae, type: 2}
     enemyListSearchType: 0
     spawnEdge: 2
     spawnPos: 0
     spawnDepth: 0
     spawnPosModBetweenSpawns: 0
+    spawnDepthModBetweenSpawns: 0
     initialDelay: 3
     timeBetweenSpawns: 0
     numberOfSpawns: 1
+    SpawnRotation: 0
+    SpawnParticles: {fileID: 0}
+    SpawnDelay: 0.8
   killEnemiesOnTimeout: 0

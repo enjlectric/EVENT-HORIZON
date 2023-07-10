@@ -1,10 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Enjlectric.ScriptableData
 {
+    /// <summary>
+    /// A component which fires unity events when a List Scriptable Data of a given type changes. Since Unity doesn't allow generic components, attach one of the derived classes.
+    /// </summary>
+    /// <typeparam name="T">The type of data.</typeparam>
     public class ListScriptableDataEvent<T> : MonoBehaviour
     {
         [SerializeField] private ListScriptableData<T> _scriptableData;
@@ -50,5 +52,4 @@ namespace Enjlectric.ScriptableData
             OnItemChanged.Invoke(_scriptableData[changedItemIndex]);
         }
     }
-
 }

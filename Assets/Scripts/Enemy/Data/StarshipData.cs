@@ -8,7 +8,7 @@ public class StarshipData : EnemyData<StarshipConfig>
 {
     public ParticleSystem WingExplosionFX;
     public EnemyData HugeGunModuleData;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt BackgroundEventInt;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt BackgroundEventInt;
     public EnemyData Demon;
 
     public override void OnStart(EnemyBehaviour behaviour)
@@ -55,7 +55,8 @@ public class StarshipData : EnemyData<StarshipConfig>
                 {
                     behaviour.SwitchSubstate(1);
                 }
-            } else
+            }
+            else
             {
                 behaviour.speed = new Vector2(0, Mathf.Sin(behaviour.substateTimer) * 3 - behaviour.transform.position.y);
 
@@ -91,7 +92,8 @@ public class StarshipData : EnemyData<StarshipConfig>
                 {
                     behaviour.SwitchSubstate(1);
                 }
-            } else if (behaviour.substate == 1)
+            }
+            else if (behaviour.substate == 1)
             {
                 if (behaviour.substate >= 1f)
                 {
@@ -106,7 +108,8 @@ public class StarshipData : EnemyData<StarshipConfig>
                 {
                     behaviour.SwitchSubstate(2);
                 }
-            } else if (behaviour.substate == 2)
+            }
+            else if (behaviour.substate == 2)
             {
                 behaviour.speed = new Vector2(0, Mathf.Sin(behaviour.substateTimer) * 3 - behaviour.transform.position.y);
 
@@ -139,9 +142,10 @@ public class StarshipData : EnemyData<StarshipConfig>
                     _config.BlackHole.SetActive(true);
                     behaviour.SwitchSubstate(1);
                 }
-            } else if (behaviour.substate == 1)
+            }
+            else if (behaviour.substate == 1)
             {
-                behaviour.speed = (MaskManager.GetPositionRelativeToCam(0,0) - behaviour.transform.position) * 0.5f;
+                behaviour.speed = (MaskManager.GetPositionRelativeToCam(0, 0) - behaviour.transform.position) * 0.5f;
                 if (behaviour.HasSurpassedSubstate(2.2f))
                 {
                     _config.BlackHole.SetActive(true);
@@ -152,7 +156,8 @@ public class StarshipData : EnemyData<StarshipConfig>
                     behaviour.SwitchSubstate(2);
                     behaviour.speed = Vector2.zero;
                 }
-            } else if (behaviour.substate == 2)
+            }
+            else if (behaviour.substate == 2)
             {
                 if (behaviour.HasSurpassedSubstate(0.5f, 0.5f))
                 {
@@ -178,7 +183,8 @@ public class StarshipData : EnemyData<StarshipConfig>
                     behaviour.SwitchSubstate(1);
                 }
                 _config.FreezeHugeGun(behaviour);
-            } else if (behaviour.substate == 1)
+            }
+            else if (behaviour.substate == 1)
             {
                 behaviour.AimSprite(behaviour.transform, Quaternion.Euler(0, 0, 3 * Mathf.Sin(behaviour.substateTimer)) * ((Vector2)behaviour.transform.position + Vector2.up));
                 behaviour.AimSprite(_config.HugeGunModule.transform, Quaternion.Euler(0, 0, 3 * Mathf.Sin(behaviour.substateTimer)) * ((Vector2)behaviour.transform.position + Vector2.up));
@@ -214,7 +220,6 @@ public class StarshipData : EnemyData<StarshipConfig>
             }
         }
 
-
         _config.BlackHole.transform.position = behaviour.transform.position;
 
         base.OnUpdate(behaviour);
@@ -231,7 +236,7 @@ public class StarshipData : EnemyData<StarshipConfig>
         behaviour.transform.localRotation = Quaternion.identity;
         AbortRoutines(behaviour);
         behaviour.TiltSprite(0);
-        
+
         behaviour.SwitchState(behaviour.state + 1);
         if (behaviour.state == 3)
         {

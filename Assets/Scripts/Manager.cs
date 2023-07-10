@@ -17,25 +17,29 @@ public class Manager : MonoBehaviour
     public string MasterGroup;
     public string MusicGroup;
     public string SFXGroup;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat MasterGroupVolume;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat MusicVolume;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat SFXGroupVolume;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat Vignette;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataTexture2D VignetteTexture;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataBool HardMode;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat MasterGroupVolume;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat MusicVolume;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat SFXGroupVolume;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat Vignette;
+    public Enjlectric.ScriptableData.Types.ScriptableDataTexture2D VignetteTexture;
+    public Enjlectric.ScriptableData.Types.ScriptableDataBool HardMode;
     public Texture2D VignetteTex;
 
-    public PlayerController player { get
+    public PlayerController player
+    {
+        get
         {
-
             if (_player == null)
             {
                 _player = FindObjectOfType<PlayerController>();
             }
             return _player;
         }
-        private set { _player = value; } }
+        private set { _player = value; }
+    }
+
     private PlayerInput _input;
+
     public PlayerInput input
     {
         get
@@ -62,15 +66,19 @@ public class Manager : MonoBehaviour
 
     [HideInInspector]
     public bool canPause = true;
+
     [HideInInspector]
     public float time;
+
     [HideInInspector]
     public float kills = 0;
 
     [HideInInspector]
     public int thisLevelHits = 0;
+
     [HideInInspector]
     public int thisLevelKills = 0;
+
     [HideInInspector]
     public int thisLevelCombo = 0;
 
@@ -82,7 +90,7 @@ public class Manager : MonoBehaviour
     public PickupData CoinPickup10;
     public List<Enjlectric.ScriptableData.ScriptableDataBase> ResettableScriptableData = new List<Enjlectric.ScriptableData.ScriptableDataBase>();
 
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt Coins;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt Coins;
 
     private static Coroutine _slowdownRoutine;
 
@@ -92,7 +100,8 @@ public class Manager : MonoBehaviour
     public int Score
     {
         get { return _score; }
-        set { 
+        set
+        {
             _score = value;
             Coins.Value = value;
             //UIManager.instance.SetPoints(value);
@@ -100,7 +109,7 @@ public class Manager : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
@@ -148,7 +157,8 @@ public class Manager : MonoBehaviour
         if (locked)
         {
             instance.input?.DeactivateInput();
-        } else
+        }
+        else
         {
             instance.input?.ActivateInput();
         }
@@ -191,7 +201,7 @@ public class Manager : MonoBehaviour
         CoroutineManager.Start(Transition());
     }
 
-    IEnumerator Transition()
+    private IEnumerator Transition()
     {
         SceneManager.LoadScene(9);
         float t = 0;
@@ -219,18 +229,16 @@ public class Manager : MonoBehaviour
         instance.input?.SwitchCurrentActionMap("Player");
     }
 
-
     private void Start()
     {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         if (StartLevel != 0 || StartWave != 0)
         {
             canPause = true;
             CoroutineManager.Start(gameMode.Execute());
             return;
         }
-        #endif
-
+#endif
     }
 
     public void StartRun()
@@ -283,7 +291,7 @@ public class Manager : MonoBehaviour
 
     private IEnumerator SlowdownRoutine(float speed, float minTime)
     {
-        Time.timeScale  = minTime;
+        Time.timeScale = minTime;
         while (Time.timeScale < 1)
         {
             yield return null;
@@ -370,7 +378,8 @@ public class Manager : MonoBehaviour
             {
                 References.CreateObject<Pickup>(CoinPickup10, position);
                 i += 9;
-            } else if (rng < 2 && points - i >= 5)
+            }
+            else if (rng < 2 && points - i >= 5)
             {
                 References.CreateObject<Pickup>(CoinPickup5, position);
                 i += 4;

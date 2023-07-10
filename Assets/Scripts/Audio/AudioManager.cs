@@ -254,6 +254,7 @@ public class AudioManager : MonoBehaviour
                 {
                     return;
                 }
+                await System.Threading.Tasks.Task.Yield();
             }
 
             instance.MusicSource.clip = loopingClip.clip;

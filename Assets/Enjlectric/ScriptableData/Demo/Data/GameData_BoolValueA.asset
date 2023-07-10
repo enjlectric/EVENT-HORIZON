@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0159b65b1be4ac6428068feb3a8d845b, type: 3}
   m_Name: GameData_BoolValueA
   m_EditorClassIdentifier: 
-  _productionDefaultValue: 0
+  _productionDefaultValue: 1
   _debugDefaultValue: 0

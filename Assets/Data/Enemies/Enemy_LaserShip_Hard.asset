@@ -17,7 +17,7 @@ MonoBehaviour:
   isSolid: 1
   ownContactDamage: 0
   damage: 1
-  health: 150
+  health: 80
   armor: 0
   invulnerableTime: 0.05
   lifetime: {x: 0, y: 0}

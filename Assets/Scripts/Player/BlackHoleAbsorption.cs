@@ -5,8 +5,8 @@ using DG.Tweening;
 
 public class BlackHoleAbsorption : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat LimitMeter;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat LimitMeterDamage;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat LimitMeter;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat LimitMeterDamage;
 
     public ParticleSystem AbsorptionSystemPrefab;
 

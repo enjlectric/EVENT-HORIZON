@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class ShowBasedOnSO : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataBool Value;
+    public Enjlectric.ScriptableData.Types.ScriptableDataBool Value;
+
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         Value.OnValueChanged.AddListener(SetVisibility);
     }
+
     // Start is called before the first frame update
-    void OnDestroy()
+    private void OnDestroy()
     {
         Value.OnValueChanged.RemoveListener(SetVisibility);
     }
 
     // Update is called once per frame
-    void SetVisibility()
+    private void SetVisibility()
     {
         gameObject.SetActive(Value.Value);
     }

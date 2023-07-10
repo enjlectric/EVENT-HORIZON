@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu(menuName = "Game/Level/StageExit", fileName = "StageExit")]
 public class StageExitObject : GameSection
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt Event;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt Event;
     public int Type;
 
     internal override IEnumerator ExecutionRoutine()

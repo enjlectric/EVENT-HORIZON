@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 5322198545607305443}
   - component: {fileID: 5322198545607305442}
   - component: {fileID: 6824986346230437273}
-  - component: {fileID: 6379127173649205652}
+  - component: {fileID: 6531018594572572254}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseBool: {fileID: 11400000, guid: 6540a2841d6ec2745bbaee6fde308456, type: 2}
---- !u!114 &6379127173649205652
+--- !u!114 &6531018594572572254
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -353,10 +353,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5322198545607305448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14caf82aa18d92b44914327e30203294, type: 3}
+  m_Script: {fileID: 11500000, guid: 39f23b2ddf6f4794db93b27f61f44e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _manager: {fileID: 11400000, guid: 27f022ad6516a9b41b4de4170b32a074, type: 2}
+  _saveGroup: {fileID: 11400000, guid: 27f022ad6516a9b41b4de4170b32a074, type: 2}
 --- !u!1 &5322198545926571345
 GameObject:
   m_ObjectHideFlags: 0

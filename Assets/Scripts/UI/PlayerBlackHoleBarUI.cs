@@ -10,8 +10,8 @@ public class PlayerBlackHoleBarUI : MonoBehaviour
     public Color ChargedColor;
     public Color OverchargeColor;
     public Color White;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat LimitMeter;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat LimitMeterDamage;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat LimitMeter;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat LimitMeterDamage;
 
     public float OverchargePercent = 1;
     public float offset = 0.5f;
@@ -24,7 +24,7 @@ public class PlayerBlackHoleBarUI : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Update()
+    private void Update()
     {
         BarFillImage.fillAmount = BarFillImage.fillAmount + (LimitMeterDamage.Value - BarFillImage.fillAmount) * Time.deltaTime * 4;
 
@@ -35,7 +35,8 @@ public class PlayerBlackHoleBarUI : MonoBehaviour
         else if (LimitMeterDamage.Value < 0)
         {
             BarFillImage.color = ChargeColor;
-        } else
+        }
+        else
         {
             BarFillImage.color = ChargedColor;
         }

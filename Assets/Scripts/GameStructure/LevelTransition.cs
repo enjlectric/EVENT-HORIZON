@@ -8,13 +8,14 @@ using UnityEngine.SceneManagement;
 public class LevelTransition : GameSection
 {
     public int BuildIndex;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat TransitionOpacity;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataTexture2D TransitionTexture;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat TransitionOpacity;
+    public Enjlectric.ScriptableData.Types.ScriptableDataTexture2D TransitionTexture;
     public Texture2D InTexture;
     public Texture2D OutTexture;
     public bool RefillHealth = false;
 
     private bool _isWaiting = false;
+
     internal override IEnumerator ExecutionRoutine()
     {
         TransitionTexture.Value = InTexture;
@@ -60,7 +61,7 @@ public class LevelTransition : GameSection
         }
     }
 
-    void StopWaiting(Scene a, Scene b)
+    private void StopWaiting(Scene a, Scene b)
     {
         _isWaiting = false;
     }

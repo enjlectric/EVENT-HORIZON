@@ -12,7 +12,7 @@ public class MoveMainMenuAround : MonoBehaviour
     public CanvasGroup CreditsUI;
     public CanvasGroup OptionsUI;
 
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat VignetteFloat;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat VignetteFloat;
 
     private void Awake()
     {

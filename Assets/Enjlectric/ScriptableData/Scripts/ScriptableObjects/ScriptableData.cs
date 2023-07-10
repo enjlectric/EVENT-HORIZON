@@ -1,10 +1,10 @@
-using System.Collections.Generic;
 using UnityEngine;
-using Newtonsoft.Json;
 using UnityEngine.Events;
-using System.ComponentModel;
+
 #if UNITY_EDITOR
+
 using UnityEditor;
+
 #endif
 
 namespace Enjlectric.ScriptableData
@@ -13,42 +13,89 @@ namespace Enjlectric.ScriptableData
     public class ScriptableData<T> : ScriptableDataBase
     {
         [Tooltip("This value will be used when the game runs in a build, or when production values are set to be used via the top menu: Tools -> ScriptableData -> UseProductionValues")]
+        [HighlightIfUsed(true)]
         [SerializeField] protected T _productionDefaultValue;
+
         [Tooltip("This value will be used when the game runs in the editor and when production values are NOT set to be used via the top menu: Tools -> ScriptableData -> UseProductionValues")]
+        [HighlightIfUsed(false)]
         [SerializeField] protected T _debugDefaultValue;
 
+#if UNITY_EDITOR
+
         [AutoReset("_productionDefaultValue", "_debugDefaultValue")]
-        protected T v;
+        protected T _currentValue;
+
+#else
+        protected T _currentValue;
+        private bool _initialized = false;
+#endif
 
         public T Value
         {
-            get { return v; }
+            get
+            {
+#if !UNITY_EDITOR
+                if (!_initialized) {
+                    _currentValue = _productionDefaultValue;
+                    _initialized = true;
+                }
+#endif
+                return _currentValue;
+            }
             set
             {
-                v = value;
+#if !UNITY_EDITOR
+                if (!_initialized) {
+                    _initialized = true;
+                }
+#endif
+                _currentValue = value;
                 OnValueChanged?.Invoke();
             }
         }
 
+        public override UnityEvent OnValueChanged { get; set; } = new UnityEvent();
+
         public void SetValueWithoutNotify(T value)
         {
-            v = value;
+            _currentValue = value;
+#if !UNITY_EDITOR
+            if (!_initialized) {
+                _initialized = true;
+            }
+#endif
         }
 
-        internal override void Restore(string saveDataValue)
+        public override string GetIdentifier()
         {
-            Value = JsonConvert.DeserializeObject<T>(saveDataValue);
+            return name;
         }
 
-        internal override object Save()
+        public override System.Type GetValueType()
         {
-            return v;
+            return typeof(T);
         }
 
-        internal override void ResetToDefault()
+        /// <summary>
+        /// Return the current value of the scriptable data.
+        /// This should only be necessary to use if your reference is to a ScriptableDataBase. Otherwise, use the .Value property directly.
+        /// (!) Since this returns the value boxed as an object, the == operator might misbehave. If you need to compare the return value, make sure to use .Equals instead.
+        /// </summary>
+        /// <returns>The current value of the Scriptable Object.</returns>
+        public override object GetCurrentValue()
+        {
+            return Value;
+        }
+
+        public override void Restore(object valueToRestoreTo)
+        {
+            Value = (T)valueToRestoreTo;
+        }
+
+        public override void ResetToDefault()
         {
 #if !UNITY_EDITOR
-        Value = _productionDefaultValue;
+            Value = _productionDefaultValue;
 #else
             if (EditorPrefs.GetBool("ScriptableDataUseProductionValues", false))
             {
@@ -59,60 +106,6 @@ namespace Enjlectric.ScriptableData
                 Value = _debugDefaultValue;
             }
 #endif
-        }
-
-        public override bool Equals(object b)
-        {
-            if (b.GetType() != typeof(string)) { 
-                if (b == default)
-                {
-                    return false;
-                }
-            }
-            if (b is ScriptableDataBase bBase)
-            {
-                return Value.Equals(bBase.GetValue());
-            }
-            return Value.Equals(b);
-        }
-
-        public override int GetHashCode()
-        {
-            if (Value == null)
-            {
-                return 0;
-            }
-            return Value.GetHashCode();
-        }
-
-        internal override object GetValue()
-        {
-            return Value;
-        }
-    }
-
-    public class ScriptableDataBase : ScriptableObject
-    {
-        private UnityEvent _onValueChanged = new UnityEvent();
-        public UnityEvent OnValueChanged => _onValueChanged;
-
-        internal virtual void Restore(string saveDataValue)
-        {
-        }
-
-        internal virtual object Save()
-        {
-            return null;
-        }
-
-        internal virtual void ResetToDefault()
-        {
-
-        }
-
-        internal virtual object GetValue()
-        {
-            return null;
         }
     }
 }

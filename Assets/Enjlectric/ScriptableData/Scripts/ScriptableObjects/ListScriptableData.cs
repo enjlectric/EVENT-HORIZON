@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Newtonsoft.Json;
 using UnityEngine.Events;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 
+#if UNITY_EDITOR
+
+using UnityEditor;
+
+#endif
 
 namespace Enjlectric.ScriptableData
 {
@@ -15,13 +16,24 @@ namespace Enjlectric.ScriptableData
     {
         [Tooltip("This value will be used when the game runs in a build, or when production values are set to be used via the top menu: Tools -> ScriptableData -> UseProductionValues")]
         [InspectorName("Production default value")]
+        [HighlightIfUsed(true)]
         [SerializeField] protected List<T> _productionDefaultValue = new List<T>();
+
         [Tooltip("This value will be used when the game runs in the editor and when production values are NOT set to be used via the top menu: Tools -> ScriptableData -> UseProductionValues")]
         [InspectorName("Debug default value")]
+        [HighlightIfUsed(false)]
         [SerializeField] protected List<T> _debugDefaultValue = new List<T>();
 
+#if UNITY_EDITOR
+
         [AutoReset("_productionDefaultValue", "_debugDefaultValue")]
-        protected List<T> v = new List<T>();
+        protected List<T> _currentValue = new List<T>();
+
+#else
+        protected List<T> _currentValue;
+        private bool _initialized = false;
+#endif
+        public override UnityEvent OnValueChanged { get; set; } = new UnityEvent();
 
         private UnityEvent<T> _onItemAdded = new UnityEvent<T>();
         private UnityEvent<T> _onItemRemoved = new UnityEvent<T>();
@@ -35,69 +47,95 @@ namespace Enjlectric.ScriptableData
 
         public List<T> Value
         {
-            get { return v; }
+            get
+            {
+#if !UNITY_EDITOR
+                if (!_initialized) {
+                    _currentValue = _productionDefaultValue;
+                    _initialized = true;
+                }
+#endif
+                return _currentValue;
+            }
             set
             {
-                v = value;
+#if !UNITY_EDITOR
+                if (!_initialized) {
+                    _initialized = true;
+                }
+#endif
+                _currentValue = value;
                 OnValueChanged?.Invoke();
             }
         }
 
-        internal void Add(T item)
+        public void Add(T item)
         {
-            v.Add(item);
+            Value.Add(item);
             OnItemAdded?.Invoke(item);
         }
 
-        internal void AddUnique(T item)
+        public void AddUnique(T item)
         {
-            if (!v.Contains(item))
+            if (!Value.Contains(item))
             {
                 Add(item);
             }
         }
 
-        internal void RemoveAt(int idx)
+        public void RemoveAt(int idx)
         {
-            if (idx < v.Count && idx >= 0)
+            if (idx < Value.Count && idx >= 0)
             {
-                var item = v[idx];
-                v.RemoveAt(idx);
+                var item = Value[idx];
+                Value.RemoveAt(idx);
                 OnItemRemoved?.Invoke(item);
             }
         }
 
-        internal void Remove(T item)
+        public void Remove(T item)
         {
-            if (v.Contains(item))
+            if (Value.Contains(item))
             {
-                v.Remove(item);
+                Value.Remove(item);
                 OnItemRemoved?.Invoke(item);
             }
         }
+
         public T this[int key]
         {
             get => Value[key];
-            set {
+            set
+            {
                 Value[key] = value;
                 OnItemChanged?.Invoke(key);
             }
         }
 
-        internal override void Restore(string saveDataValue)
+        public override string GetIdentifier()
         {
-            Value = JsonConvert.DeserializeObject<List<T>>(saveDataValue);
+            return name;
         }
 
-        internal override object Save()
+        public override object GetCurrentValue()
         {
-            return v;
+            return Value;
         }
 
-        internal override void ResetToDefault()
+        public override System.Type GetValueType()
+        {
+            return typeof(T);
+        }
+
+        public override void Restore(object valueToRestoreTo)
+        {
+            Value = (List<T>)valueToRestoreTo;
+        }
+
+        public override void ResetToDefault()
         {
 #if !UNITY_EDITOR
-        Value = _productionDefaultValue;
+            Value = _productionDefaultValue;
 #else
             if (EditorPrefs.GetBool("ScriptableDataUseProductionValues", false))
             {
@@ -118,10 +156,6 @@ namespace Enjlectric.ScriptableData
         IEnumerator IEnumerable.GetEnumerator()
         {
             return Value.GetEnumerator();
-        }
-        internal override object GetValue()
-        {
-            return Value;
         }
     }
 }

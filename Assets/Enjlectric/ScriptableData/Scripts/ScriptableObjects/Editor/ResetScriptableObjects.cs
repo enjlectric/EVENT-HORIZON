@@ -1,14 +1,16 @@
+using System;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Reflection;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
-using System.Reflection;
-using System;
+using UnityEngine;
 
-
-namespace Enjlectric.ScriptableData
+namespace Enjlectric.ScriptableData.Editor
 {
+    /// <summary>
+    /// Resets values using the AutoResetAttribute based on whether or not Production values should be used in testing. Only takes effect in the Editor.
+    /// </summary>
     [ExecuteAlways]
     public class ResetScriptableObjects : IPreprocessBuildWithReport
     {
@@ -48,22 +50,14 @@ namespace Enjlectric.ScriptableData
                             var fieldname = obj.GetType().GetField(field.Name, BindingFlags.NonPublic | BindingFlags.Instance);
                             switch (val)
                             {
-                                case int:
-                                case short:
-                                case long:
-                                case double:
-                                case float:
-                                case Enum:
-                                case bool:
-                                case Texture2D:
-                                    fieldname.SetValue(obj, val);
-                                    break;
-                                case char:
-                                case string:
-                                    fieldname.SetValue(obj, val.ToString());
-                                    break;
-                                default:
+                                case ScriptableObject:
+                                case MonoBehaviour:
+                                case GameObject:
                                     fieldname.SetValue(obj, Activator.CreateInstance(val.GetType(), val));
+                                    break;
+
+                                default:
+                                    fieldname.SetValue(obj, val);
                                     break;
                             }
                         }
@@ -76,38 +70,13 @@ namespace Enjlectric.ScriptableData
         {
             string[] guids = AssetDatabase.FindAssets("t:" + t.Name);  //FindAssets uses tags check documentation for more info
             object[] a = new object[guids.Length];
-            for (int i = 0; i < guids.Length; i++)         //probably could get optimized 
+            for (int i = 0; i < guids.Length; i++)         //probably could get optimized
             {
                 string path = AssetDatabase.GUIDToAssetPath(guids[i]);
                 a[i] = AssetDatabase.LoadAssetAtPath(path, typeof(object));
             }
 
             return a;
-        }
-    }
-
-    public static class DebugMenu
-    {
-        private const string MenuName = "Tools/ScriptableData/Use Production Values";
-        private const string SettingName = "ScriptableDataUseProductionValues";
-
-        public static bool IsEnabled
-        {
-            get { return EditorPrefs.GetBool(SettingName, false); }
-            set { EditorPrefs.SetBool(SettingName, value); }
-        }
-
-        [MenuItem(MenuName)]
-        private static void ToggleAction()
-        {
-            IsEnabled = !IsEnabled;
-        }
-
-        [MenuItem(MenuName, true)]
-        private static bool ToggleActionValidate()
-        {
-            Menu.SetChecked(MenuName, IsEnabled);
-            return true;
         }
     }
 }

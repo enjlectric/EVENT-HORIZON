@@ -6,8 +6,7 @@ using DG.Tweening;
 
 public class StageEnd : MonoBehaviour
 {
-
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt TriggerThis;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt TriggerThis;
 
     public Text KillsText;
     public Text KillComboText;
@@ -19,19 +18,21 @@ public class StageEnd : MonoBehaviour
 
     public Transform background;
     private CanvasGroup _cg;
+
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         TriggerThis.OnValueChanged.AddListener(DoCutscene);
         _cg = GetComponent<CanvasGroup>();
         _cg.alpha = 0;
     }
+
     private void OnDestroy()
     {
         TriggerThis.OnValueChanged.RemoveListener(DoCutscene);
     }
 
-    void DoCutscene()
+    private void DoCutscene()
     {
         Manager.LockPlayerInput(true);
         _cg.alpha = 1;
@@ -39,7 +40,7 @@ public class StageEnd : MonoBehaviour
         TriggerThis.SetValueWithoutNotify(0);
     }
 
-    IEnumerator CutsceneIntro()
+    private IEnumerator CutsceneIntro()
     {
         transform.localScale = Vector3.one - Vector3.up;
         yield return new WaitForSeconds(3.5f);
@@ -47,7 +48,7 @@ public class StageEnd : MonoBehaviour
         transform.DOScaleY(1, 0.8f).SetEase(Ease.OutBack);
 
         yield return new WaitForSeconds(1.5f);
-        
+
         var killsBonus = Manager.instance.thisLevelKills * 10;
         var hitsBonus = Manager.instance.thisLevelHits * 500;
         var hitsComboBonus = Mathf.Max(Manager.instance.thisLevelCombo, Manager.instance.currentCombo);

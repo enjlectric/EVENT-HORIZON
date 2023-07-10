@@ -13,9 +13,10 @@ public class AlertOverlay : MonoBehaviour
     public Text Text;
     public UnityEngine.Localization.Components.LocalizeStringEvent localizeStringEvent;
 
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataString TextString;
+    public Enjlectric.ScriptableData.Types.ScriptableDataString TextString;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         Text.text = "";
         Background.alpha = 0;
@@ -46,10 +47,12 @@ public class AlertOverlay : MonoBehaviour
         {
             ts = (ts.TrimStart('!'));
             SFX.UI_Alert_Big.Play();
-        } else if (ts[0] == '?')
+        }
+        else if (ts[0] == '?')
         {
             ts = (ts.TrimStart('?'));
-        } else 
+        }
+        else
         {
             SFX.UI_Alert_Small.Play();
         }

@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Transition : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat TransitionOpacity;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataTexture2D TransitionTexture;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat TransitionOpacity;
+    public Enjlectric.ScriptableData.Types.ScriptableDataTexture2D TransitionTexture;
     public Image TransitionObj;
 
     private float value = 0;
@@ -28,20 +28,21 @@ public class Transition : MonoBehaviour
         TransitionTexture.OnValueChanged.RemoveListener(SetTexture);
     }
 
-    void SetTexture()
+    private void SetTexture()
     {
         TransitionObj.material.SetTexture("_TransitionTex", TransitionTexture.Value);
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (TransitionOpacity.Value > value)
         {
             value += Time.deltaTime * 4;
             value = Mathf.Min(value, TransitionOpacity.Value);
             TransitionObj.material.SetFloat("_Cutoff", value);
-        } else if (TransitionOpacity.Value < value)
+        }
+        else if (TransitionOpacity.Value < value)
         {
             value -= Time.deltaTime * 4;
             value = Mathf.Max(value, TransitionOpacity.Value);

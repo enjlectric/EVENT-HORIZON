@@ -819,7 +819,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 948174644}
-        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveInterface, Assembly-CSharp
+        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveScriptableDataJSON,
+          Assembly-CSharp
         m_MethodName: Save
         m_Mode: 3
         m_Arguments:
@@ -1626,7 +1627,7 @@ GameObject:
   - component: {fileID: 948174643}
   - component: {fileID: 948174644}
   m_Layer: 0
-  m_Name: SaveInterface
+  m_Name: SaveManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1656,10 +1657,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 948174641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14caf82aa18d92b44914327e30203294, type: 3}
+  m_Script: {fileID: 11500000, guid: 39f23b2ddf6f4794db93b27f61f44e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _manager: {fileID: 11400000, guid: 0f4ef07249888844fa821b9bc13d2f12, type: 2}
+  _fileNamePattern: save-#.save
 --- !u!1 &1022884590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,7 +2390,7 @@ MonoBehaviour:
     play mode.
 
     Values marked with a * are registered to save to Save Data. View
-    the SaveInterface object for reference. '
+    the SaveManager object for reference. '
 --- !u!222 &1488983580
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2896,7 +2898,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 948174644}
-        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveInterface, Assembly-CSharp
+        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveScriptableDataJSON,
+          Assembly-CSharp
         m_MethodName: Restore
         m_Mode: 3
         m_Arguments:
@@ -3051,7 +3054,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 948174644}
-        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveInterface, Assembly-CSharp
+        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveScriptableDataJSON,
+          Assembly-CSharp
         m_MethodName: Clear
         m_Mode: 3
         m_Arguments:
@@ -3063,9 +3067,10 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 948174644}
-        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveInterface, Assembly-CSharp
-        m_MethodName: Reset
-        m_Mode: 1
+        m_TargetAssemblyTypeName: Enjlectric.ScriptableData.SaveScriptableDataJSON,
+          Assembly-CSharp
+        m_MethodName: Restore
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

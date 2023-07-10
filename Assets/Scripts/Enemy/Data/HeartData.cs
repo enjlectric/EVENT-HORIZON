@@ -11,7 +11,7 @@ public class HeartData : EnemyData<EnemyConfig>
     public BulletData WhiteBloodCell;
 
     private SpriteRenderer _configSprite;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt BackgroundEvent;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt BackgroundEvent;
 
     private ChangeSpeed _changeSpeed;
     private float basicX;
@@ -67,7 +67,8 @@ public class HeartData : EnemyData<EnemyConfig>
                 basicX = behaviour.transform.position.x;
                 behaviour.SwitchState(1);
             }
-        } else if (behaviour.state == 1)
+        }
+        else if (behaviour.state == 1)
         {
             SpawnCells(RedBloodCell, behaviour, 0.25f, false);
             if (behaviour.substate >= 1)
@@ -87,7 +88,6 @@ public class HeartData : EnemyData<EnemyConfig>
                     Shoot(behaviour, 1);
                 }
             }
-
 
             if (behaviour.substateTimer > 0.25f)
             {
@@ -118,7 +118,7 @@ public class HeartData : EnemyData<EnemyConfig>
 
         _configSprite.transform.DOComplete();
         _configSprite.transform.DOPunchScale(0.05f * Vector2.up, 0.15f).SetEase(Ease.OutBack);
-        for (int i=1; i <= 2; i++)
+        for (int i = 1; i <= 2; i++)
         {
             var offset = Quaternion.Euler(0, 0, Random.Range(0, 360)) * Vector3.up * Random.Range(0.1f, 1);
             var bullet = References.CreateObject<BulletBehaviour>(BloodBullet, behaviour.emitterContainer.emitters[0].transform.position + offset, Quaternion.Euler(0, 0, 45 * Random.Range(-1, 1.0f)));

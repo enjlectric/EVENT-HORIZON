@@ -7,12 +7,12 @@ using DG.Tweening;
 
 public class Stage1LongIntro : SerializedMonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataString Language;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataTexture2D TransitionTexture;
+    public Enjlectric.ScriptableData.Types.ScriptableDataString Language;
+    public Enjlectric.ScriptableData.Types.ScriptableDataTexture2D TransitionTexture;
     public Texture2D TransitionTexture2D;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat VignetteValue;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt WhiteFlashValue;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt BackgroundProgress;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat VignetteValue;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt WhiteFlashValue;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt BackgroundProgress;
 
     private Coroutine cutscene;
 
@@ -24,8 +24,9 @@ public class Stage1LongIntro : SerializedMonoBehaviour
 
     private float timer = 0;
     private bool isSkipping = false;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         VignetteValue.Value = 1;
         Language.Value = "en";
@@ -38,6 +39,7 @@ public class Stage1LongIntro : SerializedMonoBehaviour
         timer += Time.deltaTime;
         Manager.instance.player.transform.position = MaskManager.GetPositionRelativeToCam(-1.15f, 0) + playerOffset;
     }
+
     public async void SkipIntro()
     {
         if (cutscene != null)
@@ -87,7 +89,8 @@ public class Stage1LongIntro : SerializedMonoBehaviour
             if (i < texts.Count - 1)
             {
                 yield return new WaitForSeconds(3.05f);
-            } else
+            }
+            else
             {
                 yield return new WaitForSeconds(2.45f);
             }

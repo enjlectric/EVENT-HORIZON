@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,7 +5,8 @@ namespace Enjlectric.ScriptableData
 {
     public class ConditionalEvent : MonoBehaviour
     {
-        public enum ConditionType {
+        public enum ConditionType
+        {
             Equals, NotEqual
         }
 
@@ -59,10 +58,11 @@ namespace Enjlectric.ScriptableData
             switch (_conditionType)
             {
                 case ConditionType.Equals:
-                    becomesTrue = _a.Equals(_b);
+                    becomesTrue = (_a.GetCurrentValue().Equals(_b.GetCurrentValue()));
                     break;
+
                 case ConditionType.NotEqual:
-                    becomesTrue = _a != _b;
+                    becomesTrue = !(_a.GetCurrentValue().Equals(_b.GetCurrentValue()));
                     break;
             }
 
@@ -72,7 +72,8 @@ namespace Enjlectric.ScriptableData
                 if (becomesTrue)
                 {
                     OnConditionTrue?.Invoke();
-                } else
+                }
+                else
                 {
                     OnConditionFalse?.Invoke();
                 }

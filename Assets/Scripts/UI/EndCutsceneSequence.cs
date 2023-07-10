@@ -19,25 +19,24 @@ public class EndCutsceneSequence : MonoBehaviour
 {
     public Image BackgroundImage;
     public Text text;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat OverlayOpacity;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt Points;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat OverlayOpacity;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt Points;
     public Text thanksText;
     public Text pointsText;
     public UnityEngine.Localization.Components.LocalizeStringEvent StringLocalization;
-
 
     public List<EndingImageTextSet> Sequence;
 
     public GameObject ReturnButton;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         CoroutineManager.Start(EndingCutscene());
         OverlayOpacity.Value = 1;
     }
 
-    IEnumerator EndingCutscene()
+    private IEnumerator EndingCutscene()
     {
         yield return new WaitForSeconds(0.5f);
         OverlayOpacity.Value = 0;
@@ -56,7 +55,7 @@ public class EndCutsceneSequence : MonoBehaviour
                 text.text = string.Empty;
 
                 string realText = string.Empty;
-                
+
                 if (t != string.Empty)
                 {
                     StringLocalization.SetEntry(t);

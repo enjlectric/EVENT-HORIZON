@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TutorialActions : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat LaserValue;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt Health;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat LaserValue;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt Health;
 
     public GameObject HasShotGroup;
     public GameObject HasSuckedGroup;
@@ -23,7 +23,7 @@ public class TutorialActions : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (HasTakenDamageGroup.activeSelf == false)
         {

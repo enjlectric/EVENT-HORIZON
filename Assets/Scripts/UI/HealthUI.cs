@@ -8,15 +8,15 @@ public class HealthUI : MonoBehaviour
     public Image HPImagePrefab;
     private List<Image> InstantiatedHPImages = new List<Image>();
     public RectTransform InstantiationRoot;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt Health;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt MaxHealth;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt Health;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt MaxHealth;
 
     public Color HaveColor;
     public Color MostColor;
     public Color OffColor;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         Health.OnValueChanged.AddListener(ColorHPImages);
         Health.OnValueChanged.AddListener(InstantiateImages);
@@ -34,7 +34,6 @@ public class HealthUI : MonoBehaviour
         }
 
         ColorHPImages();
-
     }
 
     private void OnDestroy()
@@ -51,10 +50,12 @@ public class HealthUI : MonoBehaviour
             if (i == Health.Value)
             {
                 inst.color = MostColor;
-            } else if (i < Health.Value)
+            }
+            else if (i < Health.Value)
             {
                 inst.color = HaveColor;
-            } else
+            }
+            else
             {
                 inst.color = OffColor;
             }

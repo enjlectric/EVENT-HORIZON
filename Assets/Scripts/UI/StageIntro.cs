@@ -6,38 +6,40 @@ using DG.Tweening;
 
 public class StageIntro : MonoBehaviour
 {
-
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt TriggerThis;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt TriggerThis;
 
     public Transform background;
     public Text text;
     private CanvasGroup _cg;
+
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         TriggerThis.OnValueChanged.AddListener(DoCutscene);
         _cg = GetComponent<CanvasGroup>();
         _cg.alpha = 0;
     }
+
     private void OnDestroy()
     {
         TriggerThis.OnValueChanged.RemoveListener(DoCutscene);
     }
 
-    void DoCutscene()
+    private void DoCutscene()
     {
         _cg.alpha = 1;
         if (TriggerThis.Value == 1)
         {
             CoroutineManager.Start(CutsceneIntro());
-        } else
+        }
+        else
         {
             CoroutineManager.Start(Cutscene());
         }
         TriggerThis.SetValueWithoutNotify(0);
     }
 
-    IEnumerator CutsceneIntro()
+    private IEnumerator CutsceneIntro()
     {
         var t = text.text;
         text.text = "";
@@ -50,7 +52,7 @@ public class StageIntro : MonoBehaviour
         yield return Cutscene();
     }
 
-    IEnumerator Cutscene()
+    private IEnumerator Cutscene()
     {
         yield return new WaitForSeconds(2);
         transform.DOScaleY(0, 0.25f).SetEase(Ease.InBack);

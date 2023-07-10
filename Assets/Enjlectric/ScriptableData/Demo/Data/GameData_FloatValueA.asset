@@ -12,8 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e2d946d3bb0d6d4c96c86c9a85e27c2, type: 3}
   m_Name: GameData_FloatValueA
   m_EditorClassIdentifier: 
-  _onValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  _productionDefaultValue: 0
+  _productionDefaultValue: 0.5
   _debugDefaultValue: 0

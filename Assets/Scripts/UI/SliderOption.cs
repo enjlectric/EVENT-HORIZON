@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SliderOption : MonoBehaviour
 {
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat SaveGameValue;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat SaveGameValue;
 
     public Slider SliderA;
 

@@ -27,16 +27,16 @@ public class PlayerController : Shootable<PlayerData>
 
     private bool _isFocusing = false;
 
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt Health;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt MaxHealth;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat LimitMeter;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataFloat LimitMeterDamage;
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataInt WhiteFlashValue;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt Health;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt MaxHealth;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat LimitMeter;
+    public Enjlectric.ScriptableData.Types.ScriptableDataFloat LimitMeterDamage;
+    public Enjlectric.ScriptableData.Types.ScriptableDataInt WhiteFlashValue;
 
     public ParticleSystem HitEffect;
     public ParticleSystem DeathEffect;
 
-    public Enjlectric.ScriptableData.Concrete.ScriptableDataBool IsPaused;
+    public Enjlectric.ScriptableData.Types.ScriptableDataBool IsPaused;
 
     private Rigidbody2D _rb;
 
@@ -120,7 +120,8 @@ public class PlayerController : Shootable<PlayerData>
                 }
             }
             spriteRoot.transform.localPosition = Vector3.zero;
-        } else
+        }
+        else
         {
             LimitMeter.Value += Time.deltaTime * 0.45f;
             _flashTimer += Time.deltaTime * LimitMeter.Value * LimitMeter.Value;
@@ -138,7 +139,8 @@ public class PlayerController : Shootable<PlayerData>
                     {
                         Hurt(1);
                     }
-                } else
+                }
+                else
                 {
                     Hurt(1);
                 }
@@ -180,7 +182,7 @@ public class PlayerController : Shootable<PlayerData>
         _speed = _externalInput + new Vector2(_currentSteer, _currentVelocity) * (!_isFocusing ? 1 : (0.45f - 0.4f * (LimitMeter.Value * LimitMeter.Value)));
 
         Vector3 carEulerAngles = carSprite.transform.localEulerAngles;
-        carEulerAngles.z =  Mathf.SmoothStep(_targetCarAngle, _currentVelocity * angleMultiplier, 0.5f);
+        carEulerAngles.z = Mathf.SmoothStep(_targetCarAngle, _currentVelocity * angleMultiplier, 0.5f);
         carSprite.transform.localEulerAngles = carEulerAngles;
         carSprite.transform.localScale = Vector3.one + (Vector3.up - Vector3.right) * _currentSteer * -0.015f;
 
@@ -203,13 +205,13 @@ public class PlayerController : Shootable<PlayerData>
         }
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
         _rb.velocity = _speed * Time.fixedDeltaTime;
     }
 
     public override void OnUpdate()
     {
-        
     }
 
     private void ExternalInputFalloff()
@@ -231,7 +233,8 @@ public class PlayerController : Shootable<PlayerData>
         Vector3 closestExit = new Vector3(1000, 1000, 1000);
         foreach (var contact in collision.contacts)
         {
-            if (contact.point.sqrMagnitude < closestExit.sqrMagnitude) {
+            if (contact.point.sqrMagnitude < closestExit.sqrMagnitude)
+            {
                 closestExit = contact.point;
             }
         }
@@ -256,7 +259,8 @@ public class PlayerController : Shootable<PlayerData>
         if (_invulnerableTime + data.invulnerableTime > Time.time && Time.time > data.invulnerableTime)
         {
             carSprite.enabled = Mathf.FloorToInt((_invulnerableTime + data.invulnerableTime - Time.time) * 50) % 2 == 0;
-        } else
+        }
+        else
         {
             carSprite.enabled = true;
         }
@@ -282,7 +286,8 @@ public class PlayerController : Shootable<PlayerData>
         if (_hp > 1)
         {
             SFX.PlayerHurt.Play();
-        } else
+        }
+        else
         {
             SFX.PlayerHurtLastHP.Play();
         }
@@ -376,12 +381,15 @@ public class PlayerController : Shootable<PlayerData>
             case 3:
                 SFX.PlayerLaserStrongest.Play();
                 break;
+
             case 2:
                 SFX.PlayerLaserStrong.Play();
                 break;
+
             case 1:
                 SFX.PlayerLaserMedium.Play();
                 break;
+
             case 0:
                 SFX.PlayerLaserWeak.Play();
                 break;
@@ -392,7 +400,6 @@ public class PlayerController : Shootable<PlayerData>
 
     public void Shoot()
     {
-
         SFX.PlayerShoot.Play();
 
         foreach (var emitter in emitters)
